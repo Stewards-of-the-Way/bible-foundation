@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.2.0",
+  "as_of": "2026-10-29",
+  "ordered_translations": [
+    {
+      "translation_id": "ASV",
+      "name": "American Standard Version",
+      "edition_label": "1901",
+      "language": "eng",
+      "planned_canon": "66-book Protestant canon",
+      "candidate_source": {
+        "provider": "eBible.org",
+        "upstream_id": "eng-asv",
+        "information_page": "https://ebible.org/find/details.php?id=eng-asv",
+        "format_preference": "USFM ZIP",
+        "download_url": null,
+        "sha256": null,
+        "exact_release_date": null
+      },
+      "rights_assessment": "public-domain-US",
+      "intake_status": "CANDIDATE_NOT_IMPORTED",
+      "editorial_notes": "first published 1901; eBible offers USFM; verify specific release and hash at intake",
+      "history_page_status": "NOT_RESEARCHED",
+      "shared_manuscript_history_links": []
+    },
+    {
+      "translation_id": "KJV",
+      "name": "King James Version",
+      "edition_label": "1769 standardized",
+      "language": "eng",
+      "planned_canon": "66-book Protestant canon",
+      "candidate_source": {
+        "provider": "eBible.org",
+        "upstream_id": "eng-kjv2006",
+        "information_page": "https://ebible.org/find/details.php?id=eng-kjv2006",
+        "format_preference": "USFM ZIP",
+        "download_url": null,
+        "sha256": null,
+        "exact_release_date": null
+      },
+      "rights_assessment": "public-domain-US; UK Crown printing restrictions may apply",
+      "intake_status": "CANDIDATE_NOT_IMPORTED",
+      "editorial_notes": "eBible protocanon-only 1769 edition includes later Strong numbering; retain original text vs markup distinction",
+      "history_page_status": "NOT_RESEARCHED",
+      "shared_manuscript_history_links": []
+    },
+    {
+      "translation_id": "BSB",
+      "name": "Berean Standard Bible",
+      "edition_label": "modern; source-release version not locked",
+      "language": "eng",
+      "planned_canon": "66-book Protestant canon",
+      "candidate_source": {
+        "provider": "eBible.org",
+        "upstream_id": "engbsb",
+        "information_page": "https://ebible.org/find/details.php?id=engbsb",
+        "format_preference": "USFM ZIP",
+        "download_url": null,
+        "sha256": null,
+        "exact_release_date": null
+      },
+      "rights_assessment": "public-domain publisher declaration 2023-04-30",
+      "intake_status": "CANDIDATE_NOT_IMPORTED",
+      "editorial_notes": "Publisher declaration https://berean.bible/terms.htm; download specific release and verify before import",
+      "history_page_status": "NOT_RESEARCHED",
+      "shared_manuscript_history_links": []
+    },
+    {
+      "translation_id": "WBS",
+      "name": "Webster Bible",
+      "edition_label": "1833",
+      "language": "eng",
+      "planned_canon": "66-book Protestant canon",
+      "candidate_source": {
+        "provider": "eBible.org",
+        "upstream_id": "engwebster",
+        "information_page": "https://ebible.org/find/details.php?id=engwebster",
+        "format_preference": "USFM ZIP",
+        "download_url": null,
+        "sha256": null,
+        "exact_release_date": null
+      },
+      "rights_assessment": "public-domain-US",
+      "intake_status": "CANDIDATE_NOT_IMPORTED",
+      "editorial_notes": "Noah Webster Bible 1833; do not confuse with Webster 1828 dictionary",
+      "history_page_status": "NOT_RESEARCHED",
+      "shared_manuscript_history_links": []
+    }
+  ],
+  "warning": "These are catalog/source candidates only. No archive bytes have been locked, downloaded, verified or imported."
+}
