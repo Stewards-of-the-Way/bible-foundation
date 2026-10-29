@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.1.0",
+  "record_type": "scripture_reference_set",
+  "book_code": "JHN",
+  "references": [
+    {"id": "JHN.1.1", "chapter": 1, "verse": 1, "verse_text_present": false},
+    {"id": "JHN.1.2", "chapter": 1, "verse": 2, "verse_text_present": false},
+    {"id": "JHN.1.3", "chapter": 1, "verse": 3, "verse_text_present": false},
+    {"id": "JHN.1.4", "chapter": 1, "verse": 4, "verse_text_present": false},
+    {"id": "JHN.1.5", "chapter": 1, "verse": 5, "verse_text_present": false}
+  ]
+}
