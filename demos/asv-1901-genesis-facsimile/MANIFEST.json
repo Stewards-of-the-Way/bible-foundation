@@ -1,0 +1,73 @@
+{
+  "release": "demo-v0.1",
+  "target_repository": "Stewards-of-the-Way/bible-foundation",
+  "root": "demos/asv-1901-genesis-facsimile/",
+  "status": "DEMO_NOT_VERIFIED_PRODUCTION",
+  "files": [
+    {
+      "path": "demos/asv-1901-genesis-facsimile/index.html",
+      "sha256": "2f54001e1884f9753cdb31908b071288b9ff5bfbfe82edf610c61bca9d03a0f1",
+      "bytes": 25936
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/README.md",
+      "sha256": "cb62b21f706d00fa472ea618c9b7de31fa1179f8268618315f71c9a18d37f1e7",
+      "bytes": 2059
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-18.webp",
+      "sha256": "20cd5d840df5ed8d140f460787a3d1dc8b3332be90ebbb63ee4b4244ec9023d9",
+      "bytes": 316720
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-18-left.webp",
+      "sha256": "300461eb4aa551cf7adfa238289bbdcfe0f46312cf78af5b829cc0eb62e13b2b",
+      "bytes": 161892
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/hotspots.json",
+      "sha256": "9ef5335d0a85922481c4828b05ef263d943d99043ae52eb28d6937b988c0f7e0",
+      "bytes": 1236
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-18-right.webp",
+      "sha256": "2478ffdc0481138fcb4df20d96aac5370a7d01142d1511d406a6730bbfdaf22d",
+      "bytes": 154880
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-17-right.webp",
+      "sha256": "026320592a561e06bdcf90c07e0f6aedb82a624c738ceed8df44d4d6273a33bd",
+      "bytes": 126120
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-21-left.webp",
+      "sha256": "53302cd5040815641a7e16f287440e8e12d44fed2de77295cfac3ee54d381793",
+      "bytes": 169896
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-21-right.webp",
+      "sha256": "d56d593ba7137c8986a5931420318f12b7f92d845c6ed29989a69d378ac8956f",
+      "bytes": 159682
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-17-left.webp",
+      "sha256": "b2d70569075f142fff6e0049f6174ae2f3a52fa075835031a96abef383ffa2ed",
+      "bytes": 129040
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/digital-comparison-text.json",
+      "sha256": "8426a4cfae84d34f89ec81cd916c8b86bcb33de41b04d6a8f6bee72df7b46261",
+      "bytes": 12010
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-17.webp",
+      "sha256": "03d9a973f89fbb01899f5b8ff3fea35d3364949e6dd2ca01f84f9305d2f28c06",
+      "bytes": 263352
+    },
+    {
+      "path": "demos/asv-1901-genesis-facsimile/assets/page-21.webp",
+      "sha256": "a71b7b8bfd4327dd99e7108db2f18d19e2f28942e91ec6cab53337a1fdbf4f76",
+      "bytes": 331620
+    }
+  ]
+}
