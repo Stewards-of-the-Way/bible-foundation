@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Compare authentic and enhanced 1901 American Standard Version Bible page images with an interactive reading layer.">
+<title>Stewards of the Way · Genesis Visual Laboratory</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="assets/comparison-text.js"></script>
+<script defer src="assets/hotspots.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="siteheader">
+  <div class="headinner">
+    <div class="brand"><span class="brandmark" aria-hidden="true">S</span><div><strong>Stewards of the Way</strong><span>Bible Foundation · 1901 ASV laboratory</span></div></div>
+    <div class="headright"><span class="beta-tag">ISOLATED BETA 0.2</span><button id="themeToggle" class="secondary" type="button" aria-label="Toggle interface light and dark mode">◐ Interface theme</button></div>
+  </div>
+</header>
+<main id="main">
+  <section class="intro" aria-labelledby="pagetitle">
+    <p class="eyebrow">The historical page, reimagined for reading</p>
+    <h1 id="pagetitle">Genesis, as it looked in 1901.</h1>
+    <p class="lead">Five ways to experience one original printed Bible. Compare historical color, alternative contrast, and searchable modern text. No changes to the source PDF.</p>
+    <div class="fact-strip"><span><span class="dot"></span> 3 original printed pages</span><span>Genesis chapters 1–3</span><span>Source-safe · no external libraries</span></div>
+  </section>
+
+  <section class="lab" aria-label="Reader appearance and layout controls">
+    <div class="sectiontop"><h2>Choose your reading surface</h2><p>These change how the same printed page is displayed, not the historical text.</p></div>
+    <div id="appearance" class="modegrid" role="radiogroup" aria-label="Printed page appearance">
+      <button class="mode-card chosen" type="button" data-mode="original" role="radio" aria-checked="true"><span class="sample orig" aria-hidden="true">Aa</span><strong>Original 1901</strong><small>Original-color scan derivative</small></button>
+      <button class="mode-card" type="button" data-mode="invert" role="radio" aria-checked="false"><span class="sample inverse" aria-hidden="true">Aa</span><strong>Direct inversion</strong><small>Invert all original pixels</small></button>
+      <button class="mode-card" type="button" data-mode="processed" role="radio" aria-checked="false"><span class="sample processed" aria-hidden="true">Aa</span><strong>Clean dark</strong><small>Extracted ink, custom paper</small></button>
+      <button class="mode-card" type="button" data-mode="enhanced" role="radio" aria-checked="false"><span class="sample enhanced" aria-hidden="true">Aa</span><strong>Enhanced scan</strong><small>Gentle cleanup and clarity</small></button>
+      <button class="mode-card" type="button" data-mode="digital" role="radio" aria-checked="false"><span class="sample digital" aria-hidden="true">Aa</span><strong>Digital reader</strong><small>Selectable comparison text</small></button>
+    </div>
+    <div class="optionrow">
+      <div class="controlcluster"><label for="layout">Page arrangement</label><select id="layout"><option value="auto">Auto: fit reading width</option><option value="columns">One column at a time</option><option value="pages">Complete historical pages</option></select></div>
+      <div id="paperOptions" class="controlcluster is-hidden"><label for="paper">Clean-dark paper</label><select id="paper"><option value="graphite">Graphite</option><option value="navy">Midnight blue</option><option value="forest">Deep forest</option><option value="plum">Plum ink</option></select></div>
+      <div class="controlcluster"><label for="chapter">Go to a chapter</label><select id="chapter"><option value="1">Genesis 1</option><option value="2">Genesis 2</option><option value="3">Genesis 3</option></select></div>
+      <div class="controlcluster"><label for="verse">Verse</label><select id="verse"></select></div>
+      <div class="navbuttons"><button id="goVerse" class="primary" type="button">Open verse</button><button id="clearSelection" class="secondary" type="button" disabled>Clear selection</button></div>
+    </div>
+    <div class="optbottom"><label class="check"><input id="markers" type="checkbox" checked> Show sample verse hotspots</label><label class="check"><input id="sideBySide" type="checkbox"> Compare with original</label><span id="modeDescription" class="modedesc" role="status">Original image colors, no processing.</span></div>
+    <p class="safety-note"><strong>Research demo:</strong> Printed page images are authentic derivatives of the supplied scan. Verse hotspots are selected, provisional examples. The digital wording comes from an OpenBible.info comparison transcription, not a finished scan-first release. Historical cross-reference tagging is incomplete.</p>
+  </section>
+
+  <section class="reader-zone" aria-label="Bible reader">
+    <div class="reader-toolbar"><div><p class="eyebrow compact">Active reading view</p><h2 id="activeTitle">Original 1901 facsimile</h2></div><div class="reader-right"><span id="layoutBadge" class="tinybadge">Responsive</span><span id="imageCount" class="tinybadge">Lazy-loading page images</span></div></div>
+    <div class="viewstack"><div id="facsimile" class="facsimile" aria-live="off"></div><div id="digitalReader" class="digital-reader is-hidden"></div></div>
+    <div class="afterreader"><p>On a narrow screen, the first printed text column appears before the second. The original center-column references remain visible in the full-page view, with historical cross-reference links to be completed in the scholarly data layer.</p><a href="../asv-1901-genesis-facsimile/">Return to the original v0.1 demo</a></div>
+  </section>
+</main>
+<aside id="study" class="study" aria-label="Selected verse study" aria-hidden="true">
+  <div class="studyheader"><div><p class="eyebrow compact">Study this verse</p><h2 id="selectedRef">Genesis 1:1</h2><p class="provenance">Text: OpenBible digital comparison edition</p></div><button id="closeStudy" class="secondary" type="button">Close <span aria-hidden="true">×</span></button></div>
+  <div class="studytools" role="group" aria-label="Study actions"><button id="wordMode" type="button" class="secondary">Select words</button><button id="historicalRefs" type="button" class="secondary">1901 references</button><button id="compareVerse" type="button" class="secondary">Compare views</button></div>
+  <p id="verseWords" class="versewords" aria-label="Select individual words in the verse"></p>
+  <div id="studyDetail" class="studydetail" role="status">Select any word for an example of the word-study interaction. Original-language alignment is not verified.</div>
+</aside>
+<footer><div>Stewards of the Way · historical facsimile beta</div><div>Preserve the original · document every transformation · verify before publication</div></footer>
+</body></html>

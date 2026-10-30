@@ -1,0 +1,78 @@
+{
+  "id": "asv-1901-genesis-visual-lab-v0.2",
+  "release_status": "ISOLATED_BETA_NOT_PRODUCTION",
+  "repository": "Stewards-of-the-Way/bible-foundation",
+  "install_root": "demos/asv-1901-genesis-visual-lab/",
+  "asset_source": {
+    "original_scan_sha256": "e5a19756c441024c056a5f2e11eba4e1213c9a3c42e5d22c33147520bbbd3f7d",
+    "original_demo_zip_sha256": "34fa8b808ba3e7adb211eebf5556a88c92d133f622c5e28b0aa1aa4ab0a12af1",
+    "original_pdf_pages_1_indexed": [
+      17,
+      18,
+      21
+    ]
+  },
+  "asset_count_excluding_manifest": 15,
+  "files": {
+    "demos/asv-1901-genesis-visual-lab/README.md": {
+      "bytes": 5427,
+      "sha256": "a72ebfef0cd26e7a680895a901509f80c586cfc416d8956c672ff3938df824d3"
+    },
+    "demos/asv-1901-genesis-visual-lab/app.js": {
+      "bytes": 14602,
+      "sha256": "bbee711382ed383e75aad08968880e6e429787ff072d27a60d78e30477ef0e97"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/comparison-text.js": {
+      "bytes": 11353,
+      "sha256": "1b0820e15a1af9175a16e72ef49ed1b4425456a439643555258d4e2ac3c60de9"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/hotspots.js": {
+      "bytes": 739,
+      "sha256": "f3590b5fc85bffaa2eb96ffce062e1f74f74f1c6b7ac5102a90fa391633cca73"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-17-enhanced.webp": {
+      "bytes": 309660,
+      "sha256": "26cf2e2beabe8606d67a8ca568c488b9e1ddfecb0b61323fc2730fd4448158c7"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-17-ink.webp": {
+      "bytes": 396494,
+      "sha256": "2e2b9d14c1d301b9057cb8f0540be997761d381bb03aefc4b84d2cad0bc9a6b7"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-17-original.webp": {
+      "bytes": 263352,
+      "sha256": "03d9a973f89fbb01899f5b8ff3fea35d3364949e6dd2ca01f84f9305d2f28c06"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-18-enhanced.webp": {
+      "bytes": 370230,
+      "sha256": "34af530720fd066fc218aab7c424c5306ff57286ad34527735eaf681d99aa7f6"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-18-ink.webp": {
+      "bytes": 514478,
+      "sha256": "f1ce83b0422315f821ca74586dc4f90797ff58e3e7672e5e83edaefe6609be4b"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-18-original.webp": {
+      "bytes": 316720,
+      "sha256": "20cd5d840df5ed8d140f460787a3d1dc8b3332be90ebbb63ee4b4244ec9023d9"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-21-enhanced.webp": {
+      "bytes": 389536,
+      "sha256": "6590e7fc326535a4050a98969def8fd740d236e7023ac7aedfd44c54758a75db"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-21-ink.webp": {
+      "bytes": 501130,
+      "sha256": "2d6ab1bef2edcc1a413998390d7613399bb32f92b9594d9f1ca4f087042737c4"
+    },
+    "demos/asv-1901-genesis-visual-lab/assets/page-21-original.webp": {
+      "bytes": 331620,
+      "sha256": "a71b7b8bfd4327dd99e7108db2f18d19e2f28942e91ec6cab53337a1fdbf4f76"
+    },
+    "demos/asv-1901-genesis-visual-lab/index.html": {
+      "bytes": 7073,
+      "sha256": "41cf039b4fdf59d7f7d86f30069530dc10db7441227b597e51a12fe29fcfaa7c"
+    },
+    "demos/asv-1901-genesis-visual-lab/style.css": {
+      "bytes": 10220,
+      "sha256": "740e1865cf195bd750c4917df219537bbeb6ea06b3f216f1d081fbf755acda5b"
+    }
+  }
+}
