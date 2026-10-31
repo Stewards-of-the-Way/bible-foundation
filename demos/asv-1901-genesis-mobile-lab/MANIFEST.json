@@ -1,0 +1,173 @@
+{
+  "version": "beta-v0.3",
+  "repository": "Stewards-of-the-Way/bible-foundation",
+  "install_dir": "demos/asv-1901-genesis-mobile-lab",
+  "isolated_additive": true,
+  "files": [
+    {
+      "path": "UPLOAD_INSTRUCTIONS.md",
+      "bytes": 636,
+      "sha256": "d2c467395d42b838736b64d2fa8e80600c2e178209970fd79423dd98414e9349"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/README.md",
+      "bytes": 1988,
+      "sha256": "24f7de83f25c77d3a3b79942f1d4a291591f5ace0e4bd8fcf34944505ae97abf"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/app.js",
+      "bytes": 7515,
+      "sha256": "ad7d3f7257e54e8c60de717986b62dfd33882f496d399b782a6d10be638a828b"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/comparison-text.js",
+      "bytes": 11353,
+      "sha256": "1b0820e15a1af9175a16e72ef49ed1b4425456a439643555258d4e2ac3c60de9"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-enhanced.webp",
+      "bytes": 309660,
+      "sha256": "26cf2e2beabe8606d67a8ca568c488b9e1ddfecb0b61323fc2730fd4448158c7"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-ink.webp",
+      "bytes": 396494,
+      "sha256": "2e2b9d14c1d301b9057cb8f0540be997761d381bb03aefc4b84d2cad0bc9a6b7"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-left-enhanced.webp",
+      "bytes": 150894,
+      "sha256": "269682b26ff3274d820f7a2e6f98ea7d6b7c8bc38f10ee332d6e750f13e5e568"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-left-ink.webp",
+      "bytes": 174746,
+      "sha256": "e0784511cbc5d9f7ba9b59ea5bba2da8962a33ae7c0bb8a670cd7e2259474238"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-left-original.webp",
+      "bytes": 120078,
+      "sha256": "5d16727994933237e196f83f570176cd11860e7bb74f213dbf69a15f674fedef"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-original.webp",
+      "bytes": 263352,
+      "sha256": "03d9a973f89fbb01899f5b8ff3fea35d3364949e6dd2ca01f84f9305d2f28c06"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-right-enhanced.webp",
+      "bytes": 149564,
+      "sha256": "73a50a7e4de50cb3f8ed61a16eb6fa424596606ba0d1d296eccc6caf57f01673"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-right-ink.webp",
+      "bytes": 177442,
+      "sha256": "e161a808f0b1e039b452a71bfbb80caa7109f4ede4533bf3b70f48de4827eb5f"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-17-right-original.webp",
+      "bytes": 117184,
+      "sha256": "600503fa8179d35e60f04f40ef0f2990e38d3d91e78c04b52edda809d778cf83"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-enhanced.webp",
+      "bytes": 370230,
+      "sha256": "34af530720fd066fc218aab7c424c5306ff57286ad34527735eaf681d99aa7f6"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-ink.webp",
+      "bytes": 514478,
+      "sha256": "f1ce83b0422315f821ca74586dc4f90797ff58e3e7672e5e83edaefe6609be4b"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-left-enhanced.webp",
+      "bytes": 193146,
+      "sha256": "b134f3be53f5a06a656bf43cb84f3184f65221f4a5267957108f3fcc2a6e5bd4"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-left-ink.webp",
+      "bytes": 234958,
+      "sha256": "aaa6a870b4eb021844ab63d4afb2a8afea2644a05b9a65dcc6f5ada40526e820"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-left-original.webp",
+      "bytes": 151188,
+      "sha256": "66a7f7b501fe0a46bac02ad41ef19b8afca768814c415c2efe9ce46a64595477"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-original.webp",
+      "bytes": 316720,
+      "sha256": "20cd5d840df5ed8d140f460787a3d1dc8b3332be90ebbb63ee4b4244ec9023d9"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-right-enhanced.webp",
+      "bytes": 180940,
+      "sha256": "18730cb1122b47d7e3c4672c7d27a7dd3c6b1ab86d0a678ceb035161e2f4dc00"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-right-ink.webp",
+      "bytes": 236208,
+      "sha256": "94bb5840d08f55bb38a5807734fe370045565ba8801f84308ada1e17b4ac10e2"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-18-right-original.webp",
+      "bytes": 142112,
+      "sha256": "c2095001789ed8a4fdcf1791224eac8812e6ea4066cedc0db9df4b64963a5c84"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-enhanced.webp",
+      "bytes": 389536,
+      "sha256": "6590e7fc326535a4050a98969def8fd740d236e7023ac7aedfd44c54758a75db"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-ink.webp",
+      "bytes": 501130,
+      "sha256": "2d6ab1bef2edcc1a413998390d7613399bb32f92b9594d9f1ca4f087042737c4"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-left-enhanced.webp",
+      "bytes": 195506,
+      "sha256": "3a3fe3a67f36bab13095dd1cb08f0f3b7422dde6f5f5f05b6d41f239850b53ba"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-left-ink.webp",
+      "bytes": 229958,
+      "sha256": "0cafc50f79f8d863660352701c923fa87138f030f92e5a630fb36d52f18e038c"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-left-original.webp",
+      "bytes": 153692,
+      "sha256": "1f46f2c83e1e213f9accdf5d0ac3b9a78445c94863cc24b66ca71db8c06e898d"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-original.webp",
+      "bytes": 331620,
+      "sha256": "a71b7b8bfd4327dd99e7108db2f18d19e2f28942e91ec6cab53337a1fdbf4f76"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-right-enhanced.webp",
+      "bytes": 188148,
+      "sha256": "26fde37b41d6b6f3bb62a63eb5f3f31c92642538be4817361b24020d31b2e43f"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-right-ink.webp",
+      "bytes": 226954,
+      "sha256": "9e76c0614c77a8de8cd1ce3fc1f5c3f6a4789cf8918b520b85ac401b44414f59"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/assets/page-21-right-original.webp",
+      "bytes": 150434,
+      "sha256": "9b9eb34377be217ac1c18df775bbbbe3fc7be8ce88c729dc8b0f029cbd59562e"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/index.html",
+      "bytes": 3835,
+      "sha256": "8c0f0b32385187e0bf6a058afb2578c7f1f7837267a9f55cc8df5f7cfcfdd4cc"
+    },
+    {
+      "path": "demos/asv-1901-genesis-mobile-lab/style.css",
+      "bytes": 5421,
+      "sha256": "08cdf4127c9a8a67acd0b4ae02c6b74384a0e86663da15504d4b77e73187ba83"
+    }
+  ]
+}
