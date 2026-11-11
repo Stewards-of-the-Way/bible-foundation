@@ -1,0 +1,29 @@
+{
+  "policyId": "CGBC_PERMANENT_BIBLICAL_REFERENCE_2026-10-25",
+  "policyStatus": "LOCAL_APPROVED_BASELINE_NOT_DEPLOYED",
+  "freezeReason": "owner-selected stable research resource, no per-sermon auto-refresh/merge",
+  "files": [
+    {
+      "filename": "CGBC_PEOPLE_TIME_PLACE_LIBRARY.json",
+      "repositoryPath": "knowledge/shared/people-time-place/CGBC_PEOPLE_TIME_PLACE_LIBRARY.json",
+      "sha256": "8792433518fffbf370808183968fb6b88d45f37d17961d6b392ccca86b53a8f0",
+      "bytes": 1122002
+    },
+    {
+      "filename": "CGBC_HISTORICAL_EVENT_TIME_PLACE_LINKS.json",
+      "repositoryPath": "knowledge/shared/people-time-place/CGBC_HISTORICAL_EVENT_TIME_PLACE_LINKS.json",
+      "sha256": "4584f5da8c2dddb92dc027488251630dadb74dc6337629b8d0af89baaa9c3bc5",
+      "bytes": 215753
+    },
+    {
+      "filename": "CGBC_SOURCE_ATTRIBUTED_MAP_FEATURES.geojson",
+      "repositoryPath": "knowledge/shared/people-time-place/CGBC_SOURCE_ATTRIBUTED_MAP_FEATURES.geojson",
+      "sha256": "305693fe708250328b60f0f5c023ec07eee6f16fc7ed46e619bae7c87ab738aa",
+      "bytes": 43338
+    }
+  ],
+  "projectCopyRole": "read-only, pinned per-sermon reference",
+  "githubStatus": "proposed manual installation, not represented as deployed",
+  "revisionPolicy": "separate owner-directed evidence and rights review only",
+  "dateFormat": "BC/AD for display; conditionally estimated and model-tagged"
+}
