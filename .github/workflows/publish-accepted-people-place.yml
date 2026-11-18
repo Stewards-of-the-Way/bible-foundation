@@ -1,0 +1,92 @@
+name: Publish accepted SOTW people/place evidence source
+
+on:
+  workflow_dispatch:
+  # First deployment on installation, then deliberate manual reruns.
+  push:
+    paths:
+      - ".github/workflows/publish-accepted-people-place.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: accepted-people-place-v1
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout Bible Foundation
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Checkout pinned SOTW Scripture routes
+        uses: actions/checkout@v4
+        with:
+          repository: SOTW-Original-Languages/original-language-resources
+          ref: 382cabbb41e1a8cd49cac6e7f2a31cf3cd77003a
+          path: vendor/sotw-route-map
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify pinned routes
+        run: test "$(git -C vendor/sotw-route-map rev-parse HEAD)" = "382cabbb41e1a8cd49cac6e7f2a31cf3cd77003a"
+      - name: Run projection and acceptance-gate regression tests
+        run: |
+          python3 -m unittest discover -s tests -p 'test_people_place_search.py' -v
+          python3 -m unittest discover -s tests -p 'test_publish_accepted_people_place.py' -v
+      - name: Stage the accepted source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/publish_accepted_people_place.py \
+            --source-dir data/biblical-history/people-time-place \
+            --lock docs/biblical-history/people-time-place/CGBC_PERMANENT_LIBRARY_LOCK_2026-10-25.json \
+            --projection-dir data/search/people-time-place/v1 \
+            --review data/search/people-time-place/review/v1/owner-evidence-decisions.json \
+            --route-map vendor/sotw-route-map/study-data/v1/route-map.json \
+            --output-dir "$RUNNER_TEMP/sotw-accepted-source-stage"
+          python3 -c 'import json, pathlib, hashlib, os; p=pathlib.Path(os.environ["RUNNER_TEMP"])/"sotw-accepted-source-stage"; m=json.loads((p/"manifest.json").read_text()); assert m["counts"] == dict(people=185, places=65, events=6, relationships=257, alternatives=2, withheldPeople=84, withheldEvents=180, withheldRelationships=70); assert all(hashlib.sha256((p/f["path"]).read_bytes()).hexdigest()==f["sha256"] for f in m["files"]); print("PASS accepted source counts and SHA256")'
+      - name: Upload accepted collection and audit for independent review
+        uses: actions/upload-artifact@v4
+        with:
+          name: sotw-accepted-people-place-source-v1
+          path: ${{ runner.temp }/sotw-accepted-source-stage/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Publish generated accepted/v1 files only
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
+        run: |
+          set -euo pipefail
+          git fetch origin main --no-tags
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || {
+            echo "Newer commit exists. Refusing stale publication."
+            exit 1
+          }
+          dest=data/search/people-time-place/accepted/v1
+          mkdir -p "$dest"
+          for name in accepted-source.json audit.json manifest.json; do
+            cp "$RUNNER_TEMP/sotw-accepted-source-stage/$name" "$dest/$name"
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$dest/accepted-source.json" "$dest/audit.json" "$dest/manifest.json"
+          if git diff --cached --quiet; then
+            echo "Accepted source unchanged. No commit needed."
+            exit 0
+          fi
+          changed="$(git diff --cached --name-only)"
+          if echo "$changed" | grep -Ev '^data/search/people-time-place/accepted/v1/(accepted-source|audit|manifest)\.json$'; then
+            echo "Unexpected staged paths. Refusing publication."
+            exit 1
+          fi
+          git commit -m "Publish evidence-gated accepted SOTW people/place source v1"
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)" \
+            push origin HEAD:main
