@@ -80,7 +80,9 @@ def references(refs, routes, topic_id, unresolved):
         if cause:
             unresolved.append({"topic_id": topic_id, "raw": raw, "book": name,
                                "chapter": chapter, "reason": cause})
-            result.append({"raw": raw, "status": "unresolved", "reason": cause})
+            # Exclude unresolvable references from public search-facing topic shards.
+            # Keep the exact raw reference and reason in the audit report only.
+            continue
         else:
             ids = list(dict.fromkeys(f"{code}.{chapter}.{v}" for v in verse_list))
             result.append({"raw": raw, "status": "mapped", "verse_ids": ids})
@@ -171,7 +173,10 @@ def import_topics(source_dir, route_path, output_dir, source_commit, allow_parti
     })})
     report = {"schema": "sotw-topics-import-report/1.0.0", "source_topic_files": len(files),
               "source_reference_entries": total_ref_entries, "mapped_scripture_verses": sum(len(v) for v in inverted.values()),
-              "unresolved_reference_entries": len(unresolved), "unresolved": unresolved,
+              "unresolved_reference_entries": len(unresolved),
+              "mapped_reference_entries": total_ref_entries - len(unresolved),
+              "exclusion_policy": "EXCLUDE_UNRESOLVED_FROM_SEARCH_KEEP_AUDIT_REPORT",
+              "unresolved": unresolved,
               "status": "PARTIAL_TEST_ONLY" if allow_partial else "NORMALIZED_SOURCE_NOT_YET_CONNECTED_TO_SEARCH_V1"}
     files_written.append({"path": "import-report.json", "sha256": write_json(output_dir / "import-report.json", report)})
     manifest = {
@@ -183,7 +188,9 @@ def import_topics(source_dir, route_path, output_dir, source_commit, allow_parti
                    "notice_url": SOURCE_REPO + "/blob/" + source_commit + "/NOTICE",
                    "attribution": ATTRIBUTION},
         "counts": {"topics": len(files), "reference_entries": total_ref_entries,
+                   "mapped_reference_entries": total_ref_entries - len(unresolved),
                    "unresolved_reference_entries": len(unresolved)},
+        "exclusion_policy": "Only mapped references appear in topic shards and reverse indexes; unresolved entries remain in import-report.json.",
         "author_commentary": {"authority": "SOTW-Historical-Commentaries/historical-commentary-resources",
                               "path": "api/jacob-lannom/v1/current-commentary.json",
                               "joining_rule": "Explicit approved topic associations via canonical scope keys only; not inferred or copied"},

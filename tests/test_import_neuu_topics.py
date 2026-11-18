@@ -50,7 +50,7 @@ class TopicImportTests(unittest.TestCase):
         self.assertEqual(json.loads((out / "manifest.json").read_text())["counts"]["topics"], 1)
         self.assertFalse((out / "api").exists())
 
-    def test_ambiguous_source_reference_remains_visible_and_unlinked(self):
+    def test_ambiguous_source_reference_excluded_from_search_kept_in_audit(self):
         self.entry["biblical_references"].append({"book": "Unknown", "chapter": 1,
                                                     "verses": [2], "raw": "Unknown 1:2"})
         (self.source / "F/faith.json").write_text(json.dumps(self.entry))
@@ -58,8 +58,13 @@ class TopicImportTests(unittest.TestCase):
         report = importer.import_topics(self.source, self.route, out, PIN, allow_partial=True)
         self.assertEqual(report["unresolved_reference_entries"], 1)
         self.assertEqual(report["unresolved"][0]["reason"], "unknown_book")
-        self.assertEqual(json.loads((out / "topics/F.json").read_text())["topics"][0]
-                         ["references"][-1]["status"], "unresolved")
+        references = json.loads((out / "topics/F.json").read_text())["topics"][0]["references"]
+        self.assertEqual(len(references), 2)
+        self.assertTrue(all(r["status"] == "mapped" for r in references))
+        self.assertNotIn("Unknown 1:2", json.dumps(references))
+        manifest = json.loads((out / "manifest.json").read_text())
+        self.assertEqual(manifest["counts"]["mapped_reference_entries"], 2)
+        self.assertEqual(manifest["counts"]["unresolved_reference_entries"], 1)
 
     def test_no_partial_promotion_or_implicit_overwrite(self):
         out = self.root / "output"

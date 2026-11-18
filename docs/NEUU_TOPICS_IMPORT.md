@@ -8,7 +8,7 @@ This builds a **separate reference collection** from the ready-made [NEUU Bible 
 - `data/topics/nave-torrey/v1/index/topics.json`: title/slug lookup for **Bible Topics** search tab.
 - `data/topics/nave-torrey/v1/index/by-scripture/{BOOK}.json`: reverse Scripture-to-topics links.
 - `data/topics/nave-torrey/v1/manifest.json`: SHA-256 file inventory, source commit and license.
-- `data/topics/nave-torrey/v1/import-report.json`: any unresolved references, retained for transparent review.
+- `data/topics/nave-torrey/v1/import-report.json`: the original unresolved references, retained for audit but excluded from public search-facing topic shards and reverse indexes.
 
 **Not included:** Bible translation text, copyrighted modern definitions, AI-enriched `data/03_pilot`, generated doctrinal conclusions, Jacob Lannom commentary, or edits to Search v1 / CGBC. SOTW's canonically keyed Scriptures remain the link destination. Lannom's authoritative `api/jacob-lannom/v1/current-commentary.json` is independent; later, approved topic associations can join on the SOTW Scripture scope IDs without rewriting either source.
 
@@ -26,7 +26,7 @@ python3 scripts/import_neuu_topics.py \
   --source-commit eeb9b7418be4d02c497d142da3b9890fad356252
 ```
 
-Importer refuses nonempty output and incomplete datasets. This avoids replacing accepted data during concurrent or partial work. For a refresh, stage to a clean temporary output directory, inspect its manifest/diff, then replace only `data/topics/nave-torrey/v1/` if authorized. Source reference lists may contain historical or parsing errors. Unresolved records are preserved in `import-report.json` instead of producing invented Bible verse links.
+Importer refuses nonempty output and incomplete datasets. This avoids replacing accepted data during concurrent or partial work. For a refresh, stage to a clean temporary output directory, inspect its manifest/diff, then replace only `data/topics/nave-torrey/v1/` if authorized. Source reference lists may contain historical or parsing errors. **Owner-accepted volume policy (2026-11-18): bypass individual correction of unmatched references.** Include only mapped records in search-facing topic files and reverse Scripture indexes. Retain unmatched raw references with reasons in `import-report.json`; these are excluded, not guessed, and their count must be disclosed. The 2026-11-18 first staging run mapped 65,207 of 65,485 entries and excluded 278.
 
 ## GitHub Actions
 
