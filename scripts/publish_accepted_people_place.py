@@ -208,6 +208,12 @@ def build(master, projection, decisions, routes):
         if not e["searchEligible"] and not review_event:
             continue
         scopes = review_event["scriptureScopes"] if review_event else e.get("scriptureScopes", [])
+        if not scopes and e["id"] == "event-cgbc-matthew20-vineyard-parable-setting":
+            # The v1 source parser missed a real cross-chapter source range.
+            # Chapter scopes are safe for navigation but do NOT assert every verse.
+            require("Matthew 19:27–20:19" in e["sourceReferences"],
+                    "Vineyard parable source passage changed")
+            scopes = ["MAT.19", "MAT.20"]
         for scope in scopes:
             validate_scope(scope, routes)
         require(scopes, "Accepted event must have Scripture scopes: " + e["id"])
