@@ -1,0 +1,82 @@
+name: Import Nave and Torrey Bible Topics
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        required: true
+        description: "Stage a review artifact or install generated topic data in bible-foundation"
+        default: stage_artifact
+        options:
+          - stage_artifact
+          - publish_topics
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out SOTW Bible Foundation
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check out accepted original-language route map
+        uses: actions/checkout@v4
+        with:
+          repository: SOTW-Original-Languages/original-language-resources
+          ref: main
+          path: vendor/sotw-language
+          persist-credentials: false
+      - name: Check out pinned NEUU topics source
+        uses: actions/checkout@v4
+        with:
+          repository: neuu-org/bible-topics-dataset
+          ref: eeb9b7418be4d02c497d142da3b9890fad356252
+          path: vendor/neuu
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run offline importer tests
+        run: python3 -m unittest discover -s tests -p 'test_import_neuu_topics.py' -v
+      - name: Confirm pinned source revision
+        shell: bash
+        run: test "$(git -C vendor/neuu rev-parse HEAD)" = eeb9b7418be4d02c497d142da3b9890fad356252
+      - name: Build search-ready historical topics
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/import_neuu_topics.py \
+            --source-dir vendor/neuu/data/01_parsed \
+            --sotw-route-map vendor/sotw-language/study-data/v1/route-map.json \
+            --output-dir data/topics/nave-torrey/v1 \
+            --source-commit eeb9b7418be4d02c497d142da3b9890fad356252
+      - name: Upload generated topics for owner review
+        uses: actions/upload-artifact@v4
+        with:
+          name: sotw-nave-torrey-topics-v1
+          path: data/topics/nave-torrey/v1/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Commit topic data only when publish_topics was selected
+        if: github.event.inputs.mode == 'publish_topics'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/topics/nave-torrey/v1
+          if git diff --cached --quiet; then
+            echo 'Generated topic collection unchanged.'
+            exit 0
+          fi
+          git commit -m 'Import pinned Nave and Torrey CC BY 4.0 Bible topics v1'
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)" \
+            push origin HEAD:main
