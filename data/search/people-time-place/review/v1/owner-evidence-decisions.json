@@ -1,0 +1,99 @@
+{
+  "schema": "sotw-people-place-evidence-review/1.0.0",
+  "status": "OWNER_REVIEWED_DECISIONS_NOT_APPLIED_TO_PUBLISHED_PROJECTION",
+  "adoptedDate": "2026-11-18",
+  "gate": "docs/biblical-history/people-time-place/SOTW_EVIDENCE_ACCEPTANCE_GATE_v1.md",
+  "master": {
+    "path": "data/biblical-history/people-time-place/CGBC_PEOPLE_TIME_PLACE_LIBRARY.json",
+    "sha256": "8792433518fffbf370808183968fb6b88d45f37d17961d6b392ccca86b53a8f0"
+  },
+  "publicationPolicy": "Per-claim evidence decision only. No automatic promotion of any other record; no published search/runtime changes.",
+  "decisions": [
+    {
+      "entityId": "event-theonize-sumerian-writing",
+      "facet": "event_search",
+      "disposition": "EXCLUDE_NO_EVIDENCE",
+      "basis": "Owner rejects source-less event for SOTW biblical discovery; master source says historical-source identification required before publication.",
+      "source": "Historical-source identification required before publication",
+      "publicAction": "omit_from_public_search_and_scripture_links",
+      "retainHistory": true
+    },
+    {
+      "entityId": "family-danielhug-father-cain-enoch",
+      "facet": "father_child_relationship",
+      "disposition": "ACCEPT_DIRECT",
+      "from": "person-cain-adam",
+      "to": "person-danielhug-enoch",
+      "scriptureScopes": [
+        "GEN.4.17"
+      ],
+      "source": "Genesis 4:17, confirmed in the published BSB Scripture text",
+      "publicAction": "eligible_for_derived_link_after_adapter_validation",
+      "caveat": "Enoch (Cain's son) is distinct from Enoch (Genesis 5). Do not invent the mother's name."
+    },
+    {
+      "entityId": "event-theonize-ten-plagues",
+      "facet": "scripture_event_link",
+      "disposition": "ACCEPT_DIRECT",
+      "scriptureScopes": [
+        "EXO.7",
+        "EXO.8",
+        "EXO.9",
+        "EXO.10",
+        "EXO.11",
+        "EXO.12"
+      ],
+      "source": "Exodus 7–12, canonical chapter scope; the Passover is specifically in Exodus 12",
+      "publicAction": "eligible_for_bounded_chapter_link_after_parser_validation",
+      "caveat": "No historical BC date or precise location accepted by this Scripture link."
+    },
+    {
+      "entityId": "event-theonize-the-exodus",
+      "facet": "historical_bc_chronology",
+      "disposition": "RETAIN_ALTERNATIVES",
+      "source": "Current locked master timePlaceEvidence.time.dateClaims and alternativeTimePlaceProposals",
+      "alternatives": [
+        {
+          "label": "Early 15th-century proposal, about 1446 BC",
+          "sourceKey": "mid_15th_century_early_proposal",
+          "status": "SCHOLARLY_PROPOSAL_NOT_CONSENSUS"
+        },
+        {
+          "label": "Later 13th-century proposal, about 1270–1260 BC",
+          "sourceKey": "13th_century_later_proposal",
+          "status": "SCHOLARLY_PROPOSAL_NOT_CONSENSUS"
+        },
+        {
+          "label": "Ussher/KJV Study alternative, 1491 BC",
+          "sourceKey": "kjv_study_chronology_isc",
+          "status": "SOURCE_CHRONOLOGY_MODEL_UNVERIFIED_FOR_PUBLIC_EVENT_STAMP"
+        }
+      ],
+      "publicAction": "no_single_unqualified_calendar_date",
+      "caveat": "Alternatives document date models, not competing claims that the Exodus passage exists."
+    },
+    {
+      "entityId": "family-danielhug-father-javan-dodanim",
+      "facet": "biblical_name_form",
+      "disposition": "RETAIN_ALTERNATIVES",
+      "scriptureScopes": [
+        "GEN.10.4"
+      ],
+      "source": "Daniel-Hug genealogy import (Dodanim) and published BSB Genesis 10:4 (Rodanites)",
+      "alternatives": [
+        {
+          "label": "Dodanim",
+          "sourceKey": "daniel_hug_people_json_mit",
+          "status": "SOURCE_NAME_FORM"
+        },
+        {
+          "label": "Rodanites",
+          "sourceKey": "BSB:GEN.10.4",
+          "status": "TRANSLATION_NAME_FORM"
+        }
+      ],
+      "publicAction": "retain_source_distinct_name_forms",
+      "caveat": "Do not assert confirmed identity or a direct biological relationship solely from matching the source labels."
+    }
+  ]
+}
