@@ -22,7 +22,8 @@ The following files are placed in a new `data/search/people-time-place/v1/` dire
 | `manifest.json` | Locked source hashes, full file hashes, rights and app integration contract |
 
 ### Safety and evidence
-- **181 events** explicitly marked `CONTEXTUAL_SOURCE_REVIEW_REQUIRED` are **not added to public search results or Scripture reverse-link recommendations** until reviewed. Their bounded detail records remain available for owner review. Nehemiah's wall-rebuilding event is not in that withheld group.
+- **181 events** explicitly marked `CONTEXTUAL_SOURCE_REVIEW_REQUIRED` are **not added to public search results, related-entity links, or Scripture reverse-link recommendations** until reviewed. Their bounded detail records remain available for owner review. Nehemiah's wall-rebuilding event is not in that withheld group.
+- **71 relationships** marked `PENDING_CONTEXT_VALIDATION` are excluded from the public family-link graph. The QA report lists their source IDs. The remaining relationship evidence is still labeled by precision, not inferred to be direct paternity.
 - Do not treat overlapping lives as acquaintance, all genealogical sequences as direct paternity, Ussher BC dates as absolute dates, historical event dates as composition dates, or the candidate map coordinates as precise event locations.
 - A map candidate is an approximate **modern place identification**. OpenBible geographic content is **CC BY 4.0**; retain `docs/biblical-history/people-time-place/LICENSE_AND_ATTRIBUTION.md` and the bundled MIT/ISC notices. No scripture verse text or copyrighted map imagery is generated.
 - Do not merge people on name alone; preserve the permanent IDs and source-specific scope. Ambiguous names such as Manasseh remain separate records.

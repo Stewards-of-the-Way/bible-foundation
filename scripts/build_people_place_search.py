@@ -227,7 +227,13 @@ def build(folder, lock_path, route_path, out_dir):
                               "chronology": p.get("chronology"),
                               "dateDisplay": p.get("calendarDateDisplay"),
                               "chronologyWarning": "Date models are conditional, not biblical absolute chronology."})
+    # Source candidate-network edges needing contextual verification are not
+    # published as established family relationships.
+    pending_family_links = sorted(rel["id"] for rel in rels.values()
+                                  if rel.get("displayEligibility") == "PENDING_CONTEXT_VALIDATION")
     for rel in rels.values():
+        if rel.get("displayEligibility") == "PENDING_CONTEXT_VALIDATION":
+            continue
         link(rel["from"], rel["to"], "REPORTED_FAMILY_RELATIONSHIP",
              rel.get("source"), rel.get("relationshipPrecision") or rel.get("precision"))
 
@@ -275,13 +281,17 @@ def build(folder, lock_path, route_path, out_dir):
                     by_scope[s].add(e["id"])
         person_ids = sorted(set(e.get("participants", [])))
         place_ids = sorted(set(e.get("locationRefs", [])) | set(joined_evidence.get("place", {}).get("placeIds", [])))
-        for person_id in person_ids:
-            link(e["id"], person_id, "EVENT_PARTICIPANT_EXPLICIT", e.get("source"))
         for place_id in place_ids:
             if place_id not in places:
                 raise ValueError(f"Event source join has unknown place {place_id}")
-            link(e["id"], place_id, "EVENT_PLACE_ASSOCIATION_NOT_GPS", joined_evidence.get("sourcePassage"),
-                 joined_evidence.get("place", {}).get("displayPolicy"))
+        # Review-only events are retained in the QA/detail lane, not in
+        # public search, reverse Scripture indexes, or graph navigation.
+        if eligible:
+            for person_id in person_ids:
+                link(e["id"], person_id, "EVENT_PARTICIPANT_EXPLICIT", e.get("source"))
+            for place_id in place_ids:
+                link(e["id"], place_id, "EVENT_PLACE_ASSOCIATION_NOT_GPS", joined_evidence.get("sourcePassage"),
+                     joined_evidence.get("place", {}).get("displayPolicy"))
         detail_events.append({"id": e["id"], "name": e["name"],
                               "searchEligible": eligible,
                               "displayEligibility": e.get("displayEligibility", "UNSPECIFIED"),
@@ -299,10 +309,12 @@ def build(folder, lock_path, route_path, out_dir):
         "counts": {"people": len(people), "places": len(places), "events": len(events),
                    "familyRelationships": len(rels), "mapCandidates": len(features),
                    "eventEvidence": len(joins), "publicSearchEntries": len(search),
-                   "eventsContextReviewOnly": event_hidden, "typedLinks": len(links),
+                   "eventsContextReviewOnly": event_hidden,
+                   "familyLinksContextReviewOnly": len(pending_family_links), "typedLinks": len(links),
                    "indexedScriptureScopes": len(by_scope), "unparsedSourceExpressions": len(unparsed)},
+        "pendingFamilyRelationshipIds": pending_family_links,
         "unparsedSourceExpressions": unparsed,
-        "policy": "Only direct source-backed identities/links indexed; events requiring contextual review withheld from public search; unparsed references retained for audit.",
+        "policy": "Explicit source-backed identity only; review-only events and pending family relationships withheld from public search/links; unparsed references retained for audit.",
         "passed": True,
     }
     target = out_dir
