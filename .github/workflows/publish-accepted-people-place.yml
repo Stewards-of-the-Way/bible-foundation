@@ -56,13 +56,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sotw-accepted-people-place-source-v1
-          path: ${{ runner.temp }/sotw-accepted-source-stage/
+          path: ${{ runner.temp }}/sotw-accepted-source-stage/
           retention-days: 30
           if-no-files-found: error
       - name: Publish generated accepted/v1 files only
         shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           git fetch origin main --no-tags
