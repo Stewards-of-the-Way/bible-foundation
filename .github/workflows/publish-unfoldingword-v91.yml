@@ -1,0 +1,77 @@
+name: Publish unfoldingWord v91 Q&A and name candidates
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-unfoldingword-v91.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sotw-unfoldingword-v91-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Refuse existing source overwrite
+        run: |
+          test ! -e data/unfoldingword/v91
+          test ! -e sources/unfoldingword/v91
+      - name: Download and checksum exact publisher v91 archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/uw91"
+          curl -fLSs --retry 3 --connect-timeout 20 --max-time 180 'https://git.door43.org/unfoldingWord/en_tq/archive/v91.zip' -o "$RUNNER_TEMP/uw91/en_tq-v91.zip"
+          curl -fLSs --retry 3 --connect-timeout 20 --max-time 180 'https://git.door43.org/unfoldingWord/en_tw/archive/v91.zip' -o "$RUNNER_TEMP/uw91/en_tw-v91.zip"
+          (cd "$RUNNER_TEMP/uw91" && printf '%s  %s\n%s  %s\n' \
+            '02c1723404844ec95838739a2e7f43831c31234cfc9f33aa0f388d33c0a0bc11' 'en_tq-v91.zip' \
+            '78efd237fc9868ef44500305f3005b472111fde641af7cdff44cdcb10b1a2318' 'en_tw-v91.zip' | sha256sum --check)
+      - name: Verify original importer and regenerate full Q&A and 355 names
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64,zlib,hashlib,pathlib,os
+          raw=zlib.decompress(base64.b64decode(pathlib.Path('scripts/unfoldingword_v91_importer.zlib.b64').read_text().strip()))
+          assert hashlib.sha256(raw).hexdigest()=='d7858269c49cca4c7bc2cacbb75c4cd59b42437039444276f2b0024330bd73ba'
+          (pathlib.Path(os.environ['RUNNER_TEMP'])/'uw91'/'import.py').write_bytes(raw)
+          PY
+          python3 "$RUNNER_TEMP/uw91/import.py" --tq "$RUNNER_TEMP/uw91/en_tq-v91.zip" --tw "$RUNNER_TEMP/uw91/en_tw-v91.zip" --root .
+      - name: Verify all output files and key handoff hashes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import pathlib,json,hashlib
+          p=pathlib.Path('data/unfoldingword/v91')
+          manifest=json.loads((p/'manifest.json').read_text())
+          assert manifest['counts']==dict(qa=12139,books=59,namesCandidates=355)
+          for file,info in manifest['files'].items():
+            content=pathlib.Path(file).read_bytes()
+            assert len(content)==info['bytes'] and hashlib.sha256(content).hexdigest()==info['sha256'],file
+          for file,expected in [('qa/index.json','cf82578d705da5cb811387e9a4944e2529b09f75438bab738596ec3e8f994717'),('qa/books/JHN.json','53b6feb5616df36c7b263e6d3f1bde1245c8fc9bb4312f180e9cf415fa1d67cb'),('names/index.json','36ce3ed965a488a59f247004b92789f0ba01bffec8900516b97a3b2dd717a291'),('names/entries/abraham.json','e5b0fdb2b55cfd1dcc1f760811d754bab1646f7af2e2ff12736f36d41f74e805')]:
+            assert hashlib.sha256((p/file).read_bytes()).hexdigest()==expected,file
+          assert len(list((p/'qa/books').glob('*.json')))==59
+          assert len(list((p/'names/entries').glob('*.json')))==355
+          print('PASS all SHA-256 checks, 12,139 Q&A and 355 name candidates')
+          PY
+      - name: Publish only source and versioned data; protect concurrent main
+        shell: bash
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git fetch origin main --no-tags
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          git add -- data/unfoldingword/v91 sources/unfoldingword/v91
+          test -n "$(git diff --cached --name-only)"
+          if git diff --cached --name-only | grep -Ev '^(data/unfoldingword/v91/|sources/unfoldingword/v91/)'; then exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish pinned unfoldingWord v91 Q&A and review-only names'
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)" push origin HEAD:main
