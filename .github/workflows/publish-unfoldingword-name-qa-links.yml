@@ -1,0 +1,123 @@
+name: Publish unfoldingWord v91 People/Places Q&A links
+
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-unfoldingword-name-qa-links.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sotw-unfoldingword-v91-name-qa-links
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout Foundation without persistence
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Protect existing published derived version
+        run: |
+          test ! -e data/unfoldingword/v91/names/qa-links/v1
+
+      - name: Checkout published ASV 1901 chapter data
+        uses: actions/checkout@v4
+        with:
+          repository: SOTW-ASV-1901/asv-1901-resources
+          ref: main
+          path: vendor/uw-editions/asv
+          filter: blob:none
+          sparse-checkout: data/asv1901
+          persist-credentials: false
+
+      - name: Checkout published KJV 1769 chapter data
+        uses: actions/checkout@v4
+        with:
+          repository: SOTW-KJV-1769/kjv-1769-resources
+          ref: main
+          path: vendor/uw-editions/kjv
+          filter: blob:none
+          sparse-checkout: data/kjv1769
+          persist-credentials: false
+
+      - name: Checkout published BSB chapter data
+        uses: actions/checkout@v4
+        with:
+          repository: SOTW-BSB/-bsb-resources
+          ref: main
+          path: vendor/uw-editions/bsb
+          filter: blob:none
+          sparse-checkout: data/bsb
+          persist-credentials: false
+
+      - name: Checkout published Webster 1833 chapter data
+        uses: actions/checkout@v4
+        with:
+          repository: SOTW-WEBSTER-1833/webster-1833-resources
+          ref: main
+          path: vendor/uw-editions/webster
+          filter: blob:none
+          sparse-checkout: data/webster1833
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate associations and verify exact Scripture verses
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/build_unfoldingword_name_qa_links.py --root . --vendor vendor/uw-editions
+
+      - name: Independently verify source exclusion and generated SHA-256 manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,pathlib,hashlib
+          base=pathlib.Path('data/unfoldingword/v91/names/qa-links/v1')
+          manifest=json.loads((base/'manifest.json').read_text())
+          idx=json.loads((base/'index.json').read_text())
+          elig=json.loads(pathlib.Path('data/unfoldingword/v91/names/review/v1/reader-eligibility.json').read_text())
+          files=manifest['files']
+          assert len(files)>=337
+          assert all((base/r['path']).stat().st_size==r['bytes'] and hashlib.sha256((base/r['path']).read_bytes()).hexdigest()==r['sha256'] for r in files)
+          names={x['id'] for x in idx['entries']}
+          assert len(names)==332 and not names.intersection(elig['excludedIds'])
+          assert names==set(elig['eligibleIds'])
+          assert idx['counts']['sourceQARecords']==12139
+          assert idx['counts']['qaScriptureTargets']==12141
+          av=json.loads((base/'reader-verse-availability.json').read_text())
+          assert set(av['editionChecks'])=={'ASV1901','KJV1769','BSB','WEBSTER1833'}
+          assert all(x['checkedTargetIDs']>=5000 and x['availableTargets']>0 for x in av['editionChecks'].values())
+          print('PASS: full SHA256, all 332 eligible names, 23 exclusions, 12,139 Q&A and four real Scripture editions')
+          PY
+
+      - name: Commit only separate derived links, preserving all source records
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)" fetch origin main --no-tags
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" || {
+            echo 'New main exists. Refusing stale publication.'; exit 1;
+          }
+          git add -- data/unfoldingword/v91/names/qa-links/v1
+          test -n "$(git diff --cached --name-only)"
+          if git diff --cached --name-only | grep -Ev '^data/unfoldingword/v91/names/qa-links/v1/'; then
+            echo 'Unexpected staged files'; exit 1;
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish attribution-safe Q&A links for eligible unfoldingWord names'
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)" push origin HEAD:main
