@@ -1,0 +1,2976 @@
+{
+  "schema": "sotw-unfoldingword-name-review/1.0.0",
+  "reviewDate": "2026-11-21",
+  "source": {
+    "source": "unfoldingWord en_tw v91 / bible/names",
+    "sourceIndexGitBlob": "e8aba2eb47739f26c02f1f7b7bd4e7098ce7481a",
+    "sourceIndex": "data/unfoldingword/v91/names/index.json",
+    "originalSourcesUnmodified": true
+  },
+  "standard": "Limited obvious-error screen only, not exhaustive historical authentication or approval of every claim. Preserve known historical alternatives; do not reject uncertain claims merely for lacking absolute proof.",
+  "counts": {
+    "total": 355,
+    "screenedNoObviousError": 332,
+    "excluded": 23
+  },
+  "rows": [
+    {
+      "id": "utw:v91:names:aaron",
+      "slug": "aaron",
+      "title": "Aaron",
+      "sourcePath": "names/entries/aaron.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:abel",
+      "slug": "abel",
+      "title": "Abel",
+      "sourcePath": "names/entries/abel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:abiathar",
+      "slug": "abiathar",
+      "title": "Abiathar",
+      "sourcePath": "names/entries/abiathar.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Adonijah's attempted takeover and Abiathar's support occurred before David died, not after.",
+      "evidence": [
+        "1KI.1.1",
+        "1KI.1.7"
+      ]
+    },
+    {
+      "id": "utw:v91:names:abijah",
+      "slug": "abijah",
+      "title": "Abijah",
+      "sourcePath": "names/entries/abijah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:abimelech",
+      "slug": "abimelech",
+      "title": "Abimelech",
+      "sourcePath": "names/entries/abimelech.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:abner",
+      "slug": "abner",
+      "title": "Abner",
+      "sourcePath": "names/entries/abner.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:abraham",
+      "slug": "abraham",
+      "title": "Abraham, Abram",
+      "sourcePath": "names/entries/abraham.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:absalom",
+      "slug": "absalom",
+      "title": "Absalom",
+      "sourcePath": "names/entries/absalom.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:adam",
+      "slug": "adam",
+      "title": "Adam",
+      "sourcePath": "names/entries/adam.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:adonijah",
+      "slug": "adonijah",
+      "title": "Adonijah",
+      "sourcePath": "names/entries/adonijah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ahab",
+      "slug": "ahab",
+      "title": "Ahab",
+      "sourcePath": "names/entries/ahab.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ahasuerus",
+      "slug": "ahasuerus",
+      "title": "Ahasuerus",
+      "sourcePath": "names/entries/ahasuerus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ahaz",
+      "slug": "ahaz",
+      "title": "Ahaz",
+      "sourcePath": "names/entries/ahaz.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Conflates Israel's Assyrian deportation with Judah's later Babylonian exile.",
+      "evidence": [
+        "2KI.17.6",
+        "2KI.25.1"
+      ]
+    },
+    {
+      "id": "utw:v91:names:ahaziah",
+      "slug": "ahaziah",
+      "title": "Ahaziah",
+      "sourcePath": "names/entries/ahaziah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ahijah",
+      "slug": "ahijah",
+      "title": "Ahijah",
+      "sourcePath": "names/entries/ahijah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ai",
+      "slug": "ai",
+      "title": "Ai",
+      "sourcePath": "names/entries/ai.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:amalekite",
+      "slug": "amalekite",
+      "title": "Amalek, Amalekite",
+      "sourcePath": "names/entries/amalekite.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Claims hostility began only once Israel entered Canaan, but the Amalekites fought Israel at Rephidim during the Exodus.",
+      "evidence": [
+        "EXO.17.8"
+      ]
+    },
+    {
+      "id": "utw:v91:names:amaziah",
+      "slug": "amaziah",
+      "title": "Amaziah",
+      "sourcePath": "names/entries/amaziah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ammon",
+      "slug": "ammon",
+      "title": "Ammon, Ammonite",
+      "sourcePath": "names/entries/ammon.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Attributes hiring Balaam to the Ammonites; Balak of Moab sent for him.",
+      "evidence": [
+        "NUM.22.3",
+        "NUM.22.4",
+        "NUM.22.5"
+      ]
+    },
+    {
+      "id": "utw:v91:names:amnon",
+      "slug": "amnon",
+      "title": "Amnon",
+      "sourcePath": "names/entries/amnon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:amorite",
+      "slug": "amorite",
+      "title": "Amorite",
+      "sourcePath": "names/entries/amorite.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:amos",
+      "slug": "amos",
+      "title": "Amos",
+      "sourcePath": "names/entries/amos.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:amoz",
+      "slug": "amoz",
+      "title": "Amoz",
+      "sourcePath": "names/entries/amoz.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:anak",
+      "slug": "anak",
+      "title": "Anak, Anakites",
+      "sourcePath": "names/entries/anak.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:andrew",
+      "slug": "andrew",
+      "title": "Andrew",
+      "sourcePath": "names/entries/andrew.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:annas",
+      "slug": "annas",
+      "title": "Annas",
+      "sourcePath": "names/entries/annas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:antioch",
+      "slug": "antioch",
+      "title": "Antioch",
+      "sourcePath": "names/entries/antioch.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Conflates persecution at Pisidian Antioch with the stoning of Paul at Lystra by visitors FROM Antioch and Iconium.",
+      "evidence": [
+        "ACT.13.50",
+        "ACT.14.19"
+      ]
+    },
+    {
+      "id": "utw:v91:names:apollos",
+      "slug": "apollos",
+      "title": "Apollos",
+      "sourcePath": "names/entries/apollos.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:aquila",
+      "slug": "aquila",
+      "title": "Aquila",
+      "sourcePath": "names/entries/aquila.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:arabah",
+      "slug": "arabah",
+      "title": "Arabah",
+      "sourcePath": "names/entries/arabah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:arabia",
+      "slug": "arabia",
+      "title": "Arabia, Arabian",
+      "sourcePath": "names/entries/arabia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:aram",
+      "slug": "aram",
+      "title": "Aram, Aramean, Aramaic, Aram of Damascus",
+      "sourcePath": "names/entries/aram.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ararat",
+      "slug": "ararat",
+      "title": "Ararat",
+      "sourcePath": "names/entries/ararat.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:artaxerxes",
+      "slug": "artaxerxes",
+      "title": "Artaxerxes",
+      "sourcePath": "names/entries/artaxerxes.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:asa",
+      "slug": "asa",
+      "title": "Asa",
+      "sourcePath": "names/entries/asa.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:asaph",
+      "slug": "asaph",
+      "title": "Asaph",
+      "sourcePath": "names/entries/asaph.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ashdod",
+      "slug": "ashdod",
+      "title": "Ashdod, Azotus",
+      "sourcePath": "names/entries/ashdod.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:asher",
+      "slug": "asher",
+      "title": "Asher",
+      "sourcePath": "names/entries/asher.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:asherim",
+      "slug": "asherim",
+      "title": "Asherah, Asherah pole, Ashtoreth",
+      "sourcePath": "names/entries/asherim.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ashkelon",
+      "slug": "ashkelon",
+      "title": "Ashkelon",
+      "sourcePath": "names/entries/ashkelon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:asia",
+      "slug": "asia",
+      "title": "Asia",
+      "sourcePath": "names/entries/asia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:assyria",
+      "slug": "assyria",
+      "title": "Assyria, Assyrian, Assyrian Empire",
+      "sourcePath": "names/entries/assyria.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:athaliah",
+      "slug": "athaliah",
+      "title": "Athaliah",
+      "sourcePath": "names/entries/athaliah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:azariah",
+      "slug": "azariah",
+      "title": "Azariah",
+      "sourcePath": "names/entries/azariah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:baal",
+      "slug": "baal",
+      "title": "Baal",
+      "sourcePath": "names/entries/baal.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:baasha",
+      "slug": "baasha",
+      "title": "Baasha",
+      "sourcePath": "names/entries/baasha.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:babel",
+      "slug": "babel",
+      "title": "Babel",
+      "sourcePath": "names/entries/babel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:babylon",
+      "slug": "babylon",
+      "title": "Babylon, Babylonia, Babylonian",
+      "sourcePath": "names/entries/babylon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:balaam",
+      "slug": "balaam",
+      "title": "Balaam",
+      "sourcePath": "names/entries/balaam.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Calls Balak a Midianite king; the text explicitly identifies him as king of Moab.",
+      "evidence": [
+        "NUM.22.4"
+      ]
+    },
+    {
+      "id": "utw:v91:names:barabbas",
+      "slug": "barabbas",
+      "title": "Barabbas",
+      "sourcePath": "names/entries/barabbas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:barnabas",
+      "slug": "barnabas",
+      "title": "Barnabas",
+      "sourcePath": "names/entries/barnabas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bartholomew",
+      "slug": "bartholomew",
+      "title": "Bartholomew",
+      "sourcePath": "names/entries/bartholomew.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:baruch",
+      "slug": "baruch",
+      "title": "Baruch",
+      "sourcePath": "names/entries/baruch.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bashan",
+      "slug": "bashan",
+      "title": "Bashan",
+      "sourcePath": "names/entries/bashan.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bathsheba",
+      "slug": "bathsheba",
+      "title": "Bathsheba",
+      "sourcePath": "names/entries/bathsheba.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:beelzebul",
+      "slug": "beelzebul",
+      "title": "Beelzebul",
+      "sourcePath": "names/entries/beelzebul.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:beersheba",
+      "slug": "beersheba",
+      "title": "Beersheba",
+      "sourcePath": "names/entries/beersheba.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:benaiah",
+      "slug": "benaiah",
+      "title": "Benaiah",
+      "sourcePath": "names/entries/benaiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:benjamin",
+      "slug": "benjamin",
+      "title": "Benjamin, Benjaminite",
+      "sourcePath": "names/entries/benjamin.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:berea",
+      "slug": "berea",
+      "title": "Berea",
+      "sourcePath": "names/entries/berea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bethany",
+      "slug": "bethany",
+      "title": "Bethany",
+      "sourcePath": "names/entries/bethany.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Cites John 1:28's Bethany beyond the Jordan for the different Bethany near Jerusalem, home of Lazarus.",
+      "evidence": [
+        "JHN.1.28",
+        "JHN.11.1"
+      ]
+    },
+    {
+      "id": "utw:v91:names:bethel",
+      "slug": "bethel",
+      "title": "Bethel",
+      "sourcePath": "names/entries/bethel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bethlehem",
+      "slug": "bethlehem",
+      "title": "Bethlehem, Ephrathah",
+      "sourcePath": "names/entries/bethlehem.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bethshemesh",
+      "slug": "bethshemesh",
+      "title": "Beth Shemesh",
+      "sourcePath": "names/entries/bethshemesh.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Claims Philistines were bringing the ark back to Jerusalem; the actual route was Beth-shemesh then Kiriath-jearim.",
+      "evidence": [
+        "1SA.6.12",
+        "1SA.6.21",
+        "1SA.7.1"
+      ]
+    },
+    {
+      "id": "utw:v91:names:bethuel",
+      "slug": "bethuel",
+      "title": "Bethuel",
+      "sourcePath": "names/entries/bethuel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:bilhah",
+      "slug": "bilhah",
+      "title": "Bilhah",
+      "sourcePath": "names/entries/bilhah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:boaz",
+      "slug": "boaz",
+      "title": "Boaz",
+      "sourcePath": "names/entries/boaz.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:caesar",
+      "slug": "caesar",
+      "title": "Caesar",
+      "sourcePath": "names/entries/caesar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:caesarea",
+      "slug": "caesarea",
+      "title": "Caesarea, Caesarea Philippi",
+      "sourcePath": "names/entries/caesarea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:caiaphas",
+      "slug": "caiaphas",
+      "title": "Caiaphas",
+      "sourcePath": "names/entries/caiaphas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cain",
+      "slug": "cain",
+      "title": "Cain",
+      "sourcePath": "names/entries/cain.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Places Cain's protective mark specifically on his forehead although Genesis never specifies its location.",
+      "evidence": [
+        "GEN.4.15"
+      ]
+    },
+    {
+      "id": "utw:v91:names:caleb",
+      "slug": "caleb",
+      "title": "Caleb",
+      "sourcePath": "names/entries/caleb.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cana",
+      "slug": "cana",
+      "title": "Cana",
+      "sourcePath": "names/entries/cana.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:canaan",
+      "slug": "canaan",
+      "title": "Canaan, Canaanite",
+      "sourcePath": "names/entries/canaan.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:capernaum",
+      "slug": "capernaum",
+      "title": "Capernaum",
+      "sourcePath": "names/entries/capernaum.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:carmel",
+      "slug": "carmel",
+      "title": "Carmel, Mount Carmel",
+      "sourcePath": "names/entries/carmel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:chaldeans",
+      "slug": "chaldeans",
+      "title": "Chaldea, Chaldean",
+      "sourcePath": "names/entries/chaldeans.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cherethites",
+      "slug": "cherethites",
+      "title": "Cherethites",
+      "sourcePath": "names/entries/cherethites.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cilicia",
+      "slug": "cilicia",
+      "title": "Cilicia",
+      "sourcePath": "names/entries/cilicia.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Places Cilicia on the Aegean coast instead of the Mediterranean coast.",
+      "evidence": [
+        "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Cilicia"
+      ]
+    },
+    {
+      "id": "utw:v91:names:cityofdavid",
+      "slug": "cityofdavid",
+      "title": "city of David",
+      "sourcePath": "names/entries/cityofdavid.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:colossae",
+      "slug": "colossae",
+      "title": "Colossae, Colossians",
+      "sourcePath": "names/entries/colossae.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:corinth",
+      "slug": "corinth",
+      "title": "Corinth, Corinthians",
+      "sourcePath": "names/entries/corinth.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Calls Paul's 18-month Corinth stay his first missionary journey instead of his second.",
+      "evidence": [
+        "ACT.18.1",
+        "ACT.18.11"
+      ]
+    },
+    {
+      "id": "utw:v91:names:cornelius",
+      "slug": "cornelius",
+      "title": "Cornelius",
+      "sourcePath": "names/entries/cornelius.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:crete",
+      "slug": "crete",
+      "title": "Crete, Cretan",
+      "sourcePath": "names/entries/crete.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cush",
+      "slug": "cush",
+      "title": "Cush",
+      "sourcePath": "names/entries/cush.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cyprus",
+      "slug": "cyprus",
+      "title": "Cyprus",
+      "sourcePath": "names/entries/cyprus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cyrene",
+      "slug": "cyrene",
+      "title": "Cyrene",
+      "sourcePath": "names/entries/cyrene.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:cyrus",
+      "slug": "cyrus",
+      "title": "Cyrus",
+      "sourcePath": "names/entries/cyrus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:damascus",
+      "slug": "damascus",
+      "title": "Damascus",
+      "sourcePath": "names/entries/damascus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:dan",
+      "slug": "dan",
+      "title": "Dan",
+      "sourcePath": "names/entries/dan.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:daniel",
+      "slug": "daniel",
+      "title": "Daniel",
+      "sourcePath": "names/entries/daniel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:darius",
+      "slug": "darius",
+      "title": "Darius",
+      "sourcePath": "names/entries/darius.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:david",
+      "slug": "david",
+      "title": "David",
+      "sourcePath": "names/entries/david.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:delilah",
+      "slug": "delilah",
+      "title": "Delilah",
+      "sourcePath": "names/entries/delilah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:eden",
+      "slug": "eden",
+      "title": "Eden, garden of Eden",
+      "sourcePath": "names/entries/eden.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:edom",
+      "slug": "edom",
+      "title": "Edom, Edomite, Idumea",
+      "sourcePath": "names/entries/edom.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:egypt",
+      "slug": "egypt",
+      "title": "Egypt, Egyptian",
+      "sourcePath": "names/entries/egypt.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ekron",
+      "slug": "ekron",
+      "title": "Ekron, Ekronites",
+      "sourcePath": "names/entries/ekron.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:elam",
+      "slug": "elam",
+      "title": "Elam, Elamites",
+      "sourcePath": "names/entries/elam.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:eleazar",
+      "slug": "eleazar",
+      "title": "Eleazar",
+      "sourcePath": "names/entries/eleazar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:eliakim",
+      "slug": "eliakim",
+      "title": "Eliakim",
+      "sourcePath": "names/entries/eliakim.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:elijah",
+      "slug": "elijah",
+      "title": "Elijah",
+      "sourcePath": "names/entries/elijah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:elisha",
+      "slug": "elisha",
+      "title": "Elisha",
+      "sourcePath": "names/entries/elisha.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:elizabeth",
+      "slug": "elizabeth",
+      "title": "Elizabeth",
+      "sourcePath": "names/entries/elizabeth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:engedi",
+      "slug": "engedi",
+      "title": "En Gedi",
+      "sourcePath": "names/entries/engedi.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:enoch",
+      "slug": "enoch",
+      "title": "Enoch",
+      "sourcePath": "names/entries/enoch.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ephesus",
+      "slug": "ephesus",
+      "title": "Ephesus, Ephesian",
+      "sourcePath": "names/entries/ephesus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ephraim",
+      "slug": "ephraim",
+      "title": "Ephraim, Ephraimite",
+      "sourcePath": "names/entries/ephraim.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ephrathah",
+      "slug": "ephrathah",
+      "title": "Ephrath, Ephrathah",
+      "sourcePath": "names/entries/ephrathah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:esau",
+      "slug": "esau",
+      "title": "Esau",
+      "sourcePath": "names/entries/esau.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:esther",
+      "slug": "esther",
+      "title": "Esther, Hadassah",
+      "sourcePath": "names/entries/esther.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ethiopia",
+      "slug": "ethiopia",
+      "title": "Ethiopia, Ethiopian",
+      "sourcePath": "names/entries/ethiopia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:euphrates",
+      "slug": "euphrates",
+      "title": "Euphrates River, the River",
+      "sourcePath": "names/entries/euphrates.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:eve",
+      "slug": "eve",
+      "title": "Eve",
+      "sourcePath": "names/entries/eve.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ezekiel",
+      "slug": "ezekiel",
+      "title": "Ezekiel",
+      "sourcePath": "names/entries/ezekiel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ezra",
+      "slug": "ezra",
+      "title": "Ezra",
+      "sourcePath": "names/entries/ezra.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gabriel",
+      "slug": "gabriel",
+      "title": "Gabriel",
+      "sourcePath": "names/entries/gabriel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gad",
+      "slug": "gad",
+      "title": "Gad",
+      "sourcePath": "names/entries/gad.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:galatia",
+      "slug": "galatia",
+      "title": "Galatia, Galatians",
+      "sourcePath": "names/entries/galatia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:galilee",
+      "slug": "galilee",
+      "title": "Galilee, Galilean",
+      "sourcePath": "names/entries/galilee.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gath",
+      "slug": "gath",
+      "title": "Gath, Gittite",
+      "sourcePath": "names/entries/gath.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gaza",
+      "slug": "gaza",
+      "title": "Gaza",
+      "sourcePath": "names/entries/gaza.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gerar",
+      "slug": "gerar",
+      "title": "Gerar",
+      "sourcePath": "names/entries/gerar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:geshur",
+      "slug": "geshur",
+      "title": "Geshur, Geshurites",
+      "sourcePath": "names/entries/geshur.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gethsemane",
+      "slug": "gethsemane",
+      "title": "Gethsemane",
+      "sourcePath": "names/entries/gethsemane.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gibeah",
+      "slug": "gibeah",
+      "title": "Gibeah",
+      "sourcePath": "names/entries/gibeah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gibeon",
+      "slug": "gibeon",
+      "title": "Gibeon, Gibeonite",
+      "sourcePath": "names/entries/gibeon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gideon",
+      "slug": "gideon",
+      "title": "Gideon",
+      "sourcePath": "names/entries/gideon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gilead",
+      "slug": "gilead",
+      "title": "Gilead, Gileadite",
+      "sourcePath": "names/entries/gilead.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gilgal",
+      "slug": "gilgal",
+      "title": "Gilgal",
+      "sourcePath": "names/entries/gilgal.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:girgashites",
+      "slug": "girgashites",
+      "title": "Girgashites",
+      "sourcePath": "names/entries/girgashites.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:golgotha",
+      "slug": "golgotha",
+      "title": "Golgotha",
+      "sourcePath": "names/entries/golgotha.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:goliath",
+      "slug": "goliath",
+      "title": "Goliath",
+      "sourcePath": "names/entries/goliath.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:gomorrah",
+      "slug": "gomorrah",
+      "title": "Gomorrah",
+      "sourcePath": "names/entries/gomorrah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:goshen",
+      "slug": "goshen",
+      "title": "Goshen",
+      "sourcePath": "names/entries/goshen.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:greece",
+      "slug": "greece",
+      "title": "Greece, Grecian",
+      "sourcePath": "names/entries/greece.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:greek",
+      "slug": "greek",
+      "title": "Greek, Grecian, Hellenist",
+      "sourcePath": "names/entries/greek.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:habakkuk",
+      "slug": "habakkuk",
+      "title": "Habakkuk",
+      "sourcePath": "names/entries/habakkuk.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hagar",
+      "slug": "hagar",
+      "title": "Hagar",
+      "sourcePath": "names/entries/hagar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:haggai",
+      "slug": "haggai",
+      "title": "Haggai",
+      "sourcePath": "names/entries/haggai.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ham",
+      "slug": "ham",
+      "title": "Ham",
+      "sourcePath": "names/entries/ham.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hamath",
+      "slug": "hamath",
+      "title": "Hamath, Hamathites, Lebo Hamath, Hamath Rabbah",
+      "sourcePath": "names/entries/hamath.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hamor",
+      "slug": "hamor",
+      "title": "Hamor",
+      "sourcePath": "names/entries/hamor.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hananiah",
+      "slug": "hananiah",
+      "title": "Hananiah",
+      "sourcePath": "names/entries/hananiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hannah",
+      "slug": "hannah",
+      "title": "Hannah",
+      "sourcePath": "names/entries/hannah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:haran",
+      "slug": "haran",
+      "title": "Haran",
+      "sourcePath": "names/entries/haran.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hebron",
+      "slug": "hebron",
+      "title": "Hebron, Kiriath Arba",
+      "sourcePath": "names/entries/hebron.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:herodantipas",
+      "slug": "herodantipas",
+      "title": "Herod, Herod Antipas",
+      "sourcePath": "names/entries/herodantipas.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Calls Agrippa I Antipas's son; Agrippa I was his nephew (Aristobulus IV's son).",
+      "evidence": [
+        "https://www.newadvent.org/cathen/07289c.htm"
+      ]
+    },
+    {
+      "id": "utw:v91:names:herodias",
+      "slug": "herodias",
+      "title": "Herodias",
+      "sourcePath": "names/entries/herodias.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:herodthegreat",
+      "slug": "herodthegreat",
+      "title": "Herod, Herod the Great",
+      "sourcePath": "names/entries/herodthegreat.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:heshbon",
+      "slug": "heshbon",
+      "title": "Heshbon",
+      "sourcePath": "names/entries/heshbon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hezekiah",
+      "slug": "hezekiah",
+      "title": "Hezekiah",
+      "sourcePath": "names/entries/hezekiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hilkiah",
+      "slug": "hilkiah",
+      "title": "Hilkiah",
+      "sourcePath": "names/entries/hilkiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hittite",
+      "slug": "hittite",
+      "title": "Hittite",
+      "sourcePath": "names/entries/hittite.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hivite",
+      "slug": "hivite",
+      "title": "Hivite",
+      "sourcePath": "names/entries/hivite.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hosea",
+      "slug": "hosea",
+      "title": "Hosea",
+      "sourcePath": "names/entries/hosea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:hoshea",
+      "slug": "hoshea",
+      "title": "Hoshea",
+      "sourcePath": "names/entries/hoshea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:houseofdavid",
+      "slug": "houseofdavid",
+      "title": "house of David",
+      "sourcePath": "names/entries/houseofdavid.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:iconium",
+      "slug": "iconium",
+      "title": "Iconium",
+      "sourcePath": "names/entries/iconium.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:isaac",
+      "slug": "isaac",
+      "title": "Isaac",
+      "sourcePath": "names/entries/isaac.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:isaiah",
+      "slug": "isaiah",
+      "title": "Isaiah",
+      "sourcePath": "names/entries/isaiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ishmael",
+      "slug": "ishmael",
+      "title": "Ishmael, Ishmaelite",
+      "sourcePath": "names/entries/ishmael.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:issachar",
+      "slug": "issachar",
+      "title": "Issachar",
+      "sourcePath": "names/entries/issachar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jacob",
+      "slug": "jacob",
+      "title": "Jacob, Israel",
+      "sourcePath": "names/entries/jacob.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jamesbrotherofjesus",
+      "slug": "jamesbrotherofjesus",
+      "title": "James (brother of Jesus)",
+      "sourcePath": "names/entries/jamesbrotherofjesus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jamessonofalphaeus",
+      "slug": "jamessonofalphaeus",
+      "title": "James (son of Alphaeus)",
+      "sourcePath": "names/entries/jamessonofalphaeus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jamessonofzebedee",
+      "slug": "jamessonofzebedee",
+      "title": "James (son of Zebedee)",
+      "sourcePath": "names/entries/jamessonofzebedee.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:japheth",
+      "slug": "japheth",
+      "title": "Japheth",
+      "sourcePath": "names/entries/japheth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jebusites",
+      "slug": "jebusites",
+      "title": "Jebus, Jebusite",
+      "sourcePath": "names/entries/jebusites.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jehoiachin",
+      "slug": "jehoiachin",
+      "title": "Jehoiachin",
+      "sourcePath": "names/entries/jehoiachin.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Calls Manasseh Jehoiachin's grandfather; several generations intervene: Manasseh, Amon, Josiah, Jehoiakim, Jehoiachin.",
+      "evidence": [
+        "2KI.21.26",
+        "2KI.23.34",
+        "2KI.24.6"
+      ]
+    },
+    {
+      "id": "utw:v91:names:jehoiada",
+      "slug": "jehoiada",
+      "title": "Jehoiada",
+      "sourcePath": "names/entries/jehoiada.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jehoiakim",
+      "slug": "jehoiakim",
+      "title": "Jehoiakim",
+      "sourcePath": "names/entries/jehoiakim.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jehoram",
+      "slug": "jehoram",
+      "title": "Jehoram, Joram",
+      "sourcePath": "names/entries/jehoram.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Places ninth-century King Jehoram alongside Jeremiah, Daniel and Ezekiel, who belong centuries later.",
+      "evidence": [
+        "2KI.8.16",
+        "JER.1.2",
+        "DAN.1.1",
+        "EZK.1.1"
+      ]
+    },
+    {
+      "id": "utw:v91:names:jehoshaphat",
+      "slug": "jehoshaphat",
+      "title": "Jehoshaphat",
+      "sourcePath": "names/entries/jehoshaphat.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jehu",
+      "slug": "jehu",
+      "title": "Jehu",
+      "sourcePath": "names/entries/jehu.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jephthah",
+      "slug": "jephthah",
+      "title": "Jephthah",
+      "sourcePath": "names/entries/jephthah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jeremiah",
+      "slug": "jeremiah",
+      "title": "Jeremiah",
+      "sourcePath": "names/entries/jeremiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jericho",
+      "slug": "jericho",
+      "title": "Jericho",
+      "sourcePath": "names/entries/jericho.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jeroboam",
+      "slug": "jeroboam",
+      "title": "Jeroboam",
+      "sourcePath": "names/entries/jeroboam.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jerusalem",
+      "slug": "jerusalem",
+      "title": "Jerusalem",
+      "sourcePath": "names/entries/jerusalem.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jesse",
+      "slug": "jesse",
+      "title": "Jesse",
+      "sourcePath": "names/entries/jesse.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jethro",
+      "slug": "jethro",
+      "title": "Jethro, Reuel",
+      "sourcePath": "names/entries/jethro.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jezebel",
+      "slug": "jezebel",
+      "title": "Jezebel",
+      "sourcePath": "names/entries/jezebel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jezreel",
+      "slug": "jezreel",
+      "title": "Jezreel, Jezreelite",
+      "sourcePath": "names/entries/jezreel.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Places Jezreel southwest of the Dead/Salt Sea instead of in northern Israel's Jezreel Valley.",
+      "evidence": [
+        "1KI.21.1",
+        "JOS.19.18"
+      ]
+    },
+    {
+      "id": "utw:v91:names:joab",
+      "slug": "joab",
+      "title": "Joab",
+      "sourcePath": "names/entries/joab.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:joash",
+      "slug": "joash",
+      "title": "Joash",
+      "sourcePath": "names/entries/joash.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:job",
+      "slug": "job",
+      "title": "Job",
+      "sourcePath": "names/entries/job.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:joel",
+      "slug": "joel",
+      "title": "Joel",
+      "sourcePath": "names/entries/joel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:johnmark",
+      "slug": "johnmark",
+      "title": "John Mark",
+      "sourcePath": "names/entries/johnmark.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:johntheapostle",
+      "slug": "johntheapostle",
+      "title": "John (the apostle)",
+      "sourcePath": "names/entries/johntheapostle.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:johnthebaptist",
+      "slug": "johnthebaptist",
+      "title": "John (the Baptist)",
+      "sourcePath": "names/entries/johnthebaptist.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jonah",
+      "slug": "jonah",
+      "title": "Jonah",
+      "sourcePath": "names/entries/jonah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jonathan",
+      "slug": "jonathan",
+      "title": "Jonathan",
+      "sourcePath": "names/entries/jonathan.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:joppa",
+      "slug": "joppa",
+      "title": "Joppa",
+      "sourcePath": "names/entries/joppa.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:joram",
+      "slug": "joram",
+      "title": "Joram",
+      "sourcePath": "names/entries/joram.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jordanriver",
+      "slug": "jordanriver",
+      "title": "Jordan River, Jordan",
+      "sourcePath": "names/entries/jordanriver.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:josephnt",
+      "slug": "josephnt",
+      "title": "Joseph (NT)",
+      "sourcePath": "names/entries/josephnt.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:josephot",
+      "slug": "josephot",
+      "title": "Joseph (OT)",
+      "sourcePath": "names/entries/josephot.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:joshua",
+      "slug": "joshua",
+      "title": "Joshua",
+      "sourcePath": "names/entries/joshua.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:josiah",
+      "slug": "josiah",
+      "title": "Josiah",
+      "sourcePath": "names/entries/josiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:jotham",
+      "slug": "jotham",
+      "title": "Jotham",
+      "sourcePath": "names/entries/jotham.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:judah",
+      "slug": "judah",
+      "title": "Judah",
+      "sourcePath": "names/entries/judah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:judasiscariot",
+      "slug": "judasiscariot",
+      "title": "Judas Iscariot",
+      "sourcePath": "names/entries/judasiscariot.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:judassonofjames",
+      "slug": "judassonofjames",
+      "title": "Judas son of James",
+      "sourcePath": "names/entries/judassonofjames.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:judea",
+      "slug": "judea",
+      "title": "Judea, Judah",
+      "sourcePath": "names/entries/judea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:kadesh",
+      "slug": "kadesh",
+      "title": "Kadesh, Kadesh Barnea, Meribah Kadesh",
+      "sourcePath": "names/entries/kadesh.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:kedar",
+      "slug": "kedar",
+      "title": "Kedar",
+      "sourcePath": "names/entries/kedar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:kedesh",
+      "slug": "kedesh",
+      "title": "Kedesh",
+      "sourcePath": "names/entries/kedesh.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:kidronvalley",
+      "slug": "kidronvalley",
+      "title": "Kidron Valley",
+      "sourcePath": "names/entries/kidronvalley.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:kingdomofisrael",
+      "slug": "kingdomofisrael",
+      "title": "kingdom of Israel",
+      "sourcePath": "names/entries/kingdomofisrael.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:kingdomofjudah",
+      "slug": "kingdomofjudah",
+      "title": "Judah, kingdom of Judah",
+      "sourcePath": "names/entries/kingdomofjudah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:korah",
+      "slug": "korah",
+      "title": "Korah, Korahite",
+      "sourcePath": "names/entries/korah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:laban",
+      "slug": "laban",
+      "title": "Laban",
+      "sourcePath": "names/entries/laban.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:lamech",
+      "slug": "lamech",
+      "title": "Lamech",
+      "sourcePath": "names/entries/lamech.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:lazarus",
+      "slug": "lazarus",
+      "title": "Lazarus",
+      "sourcePath": "names/entries/lazarus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:leah",
+      "slug": "leah",
+      "title": "Leah",
+      "sourcePath": "names/entries/leah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:lebanon",
+      "slug": "lebanon",
+      "title": "Lebanon",
+      "sourcePath": "names/entries/lebanon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:leviathan",
+      "slug": "leviathan",
+      "title": "Leviathan",
+      "sourcePath": "names/entries/leviathan.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:levite",
+      "slug": "levite",
+      "title": "Levi, Levite",
+      "sourcePath": "names/entries/levite.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:lot",
+      "slug": "lot",
+      "title": "Lot",
+      "sourcePath": "names/entries/lot.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:luke",
+      "slug": "luke",
+      "title": "Luke",
+      "sourcePath": "names/entries/luke.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:lystra",
+      "slug": "lystra",
+      "title": "Lystra",
+      "sourcePath": "names/entries/lystra.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:maacah",
+      "slug": "maacah",
+      "title": "Maacah",
+      "sourcePath": "names/entries/maacah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:macedonia",
+      "slug": "macedonia",
+      "title": "Macedonia",
+      "sourcePath": "names/entries/macedonia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:maker",
+      "slug": "maker",
+      "title": "Maker",
+      "sourcePath": "names/entries/maker.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:malachi",
+      "slug": "malachi",
+      "title": "Malachi",
+      "sourcePath": "names/entries/malachi.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:manasseh",
+      "slug": "manasseh",
+      "title": "Manasseh",
+      "sourcePath": "names/entries/manasseh.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:manofgod",
+      "slug": "manofgod",
+      "title": "man of God",
+      "sourcePath": "names/entries/manofgod.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:martha",
+      "slug": "martha",
+      "title": "Martha",
+      "sourcePath": "names/entries/martha.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mary",
+      "slug": "mary",
+      "title": "Mary (the mother of Jesus)",
+      "sourcePath": "names/entries/mary.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:marymagdalene",
+      "slug": "marymagdalene",
+      "title": "Mary Magdalene",
+      "sourcePath": "names/entries/marymagdalene.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:marysisterofmartha",
+      "slug": "marysisterofmartha",
+      "title": "Mary (sister of Martha)",
+      "sourcePath": "names/entries/marysisterofmartha.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:matthew",
+      "slug": "matthew",
+      "title": "Matthew, Levi",
+      "sourcePath": "names/entries/matthew.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mede",
+      "slug": "mede",
+      "title": "Mede, Medes, Media",
+      "sourcePath": "names/entries/mede.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:melchizedek",
+      "slug": "melchizedek",
+      "title": "Melchizedek",
+      "sourcePath": "names/entries/melchizedek.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:memphis",
+      "slug": "memphis",
+      "title": "Memphis",
+      "sourcePath": "names/entries/memphis.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:meshech",
+      "slug": "meshech",
+      "title": "Meshech",
+      "sourcePath": "names/entries/meshech.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mesopotamia",
+      "slug": "mesopotamia",
+      "title": "Mesopotamia, Aram Naharaim",
+      "sourcePath": "names/entries/mesopotamia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:micah",
+      "slug": "micah",
+      "title": "Micah",
+      "sourcePath": "names/entries/micah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:michael",
+      "slug": "michael",
+      "title": "Michael",
+      "sourcePath": "names/entries/michael.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:midian",
+      "slug": "midian",
+      "title": "Midian, Midianite",
+      "sourcePath": "names/entries/midian.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:miriam",
+      "slug": "miriam",
+      "title": "Miriam",
+      "sourcePath": "names/entries/miriam.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mishael",
+      "slug": "mishael",
+      "title": "Mishael",
+      "sourcePath": "names/entries/mishael.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mizpah",
+      "slug": "mizpah",
+      "title": "Mizpah",
+      "sourcePath": "names/entries/mizpah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:moab",
+      "slug": "moab",
+      "title": "Moab, Moabite",
+      "sourcePath": "names/entries/moab.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:molech",
+      "slug": "molech",
+      "title": "Molech, Moloch",
+      "sourcePath": "names/entries/molech.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mordecai",
+      "slug": "mordecai",
+      "title": "Mordecai",
+      "sourcePath": "names/entries/mordecai.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:moses",
+      "slug": "moses",
+      "title": "Moses",
+      "sourcePath": "names/entries/moses.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mounthermon",
+      "slug": "mounthermon",
+      "title": "Mount Hermon",
+      "sourcePath": "names/entries/mounthermon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:mountofolives",
+      "slug": "mountofolives",
+      "title": "Mount of Olives",
+      "sourcePath": "names/entries/mountofolives.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:naaman",
+      "slug": "naaman",
+      "title": "Naaman",
+      "sourcePath": "names/entries/naaman.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nahor",
+      "slug": "nahor",
+      "title": "Nahor",
+      "sourcePath": "names/entries/nahor.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nahum",
+      "slug": "nahum",
+      "title": "Nahum",
+      "sourcePath": "names/entries/nahum.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:naphtali",
+      "slug": "naphtali",
+      "title": "Naphtali",
+      "sourcePath": "names/entries/naphtali.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nathan",
+      "slug": "nathan",
+      "title": "Nathan",
+      "sourcePath": "names/entries/nathan.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nazareth",
+      "slug": "nazareth",
+      "title": "Nazareth, Nazarene",
+      "sourcePath": "names/entries/nazareth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nebuchadnezzar",
+      "slug": "nebuchadnezzar",
+      "title": "Nebuchadnezzar",
+      "sourcePath": "names/entries/nebuchadnezzar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:negev",
+      "slug": "negev",
+      "title": "Negev",
+      "sourcePath": "names/entries/negev.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nehemiah",
+      "slug": "nehemiah",
+      "title": "Nehemiah",
+      "sourcePath": "names/entries/nehemiah.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Claims Nehemiah was personally deported by Babylonians, an unattested life event inconsistent with the later Persian-period setting.",
+      "evidence": [
+        "NEH.1.1",
+        "NEH.2.1",
+        "2KI.25.1"
+      ]
+    },
+    {
+      "id": "utw:v91:names:nephils",
+      "slug": "nephils",
+      "title": "Nephils, Nephilim, Nephilites",
+      "sourcePath": "names/entries/nephils.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nileriver",
+      "slug": "nileriver",
+      "title": "Nile River, River of Egypt, the Nile",
+      "sourcePath": "names/entries/nileriver.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:nineveh",
+      "slug": "nineveh",
+      "title": "Nineveh, Ninevite",
+      "sourcePath": "names/entries/nineveh.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:noah",
+      "slug": "noah",
+      "title": "Noah",
+      "sourcePath": "names/entries/noah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:obadiah",
+      "slug": "obadiah",
+      "title": "Obadiah",
+      "sourcePath": "names/entries/obadiah.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "States Jeremiah, Daniel and Ezekiel prophesied during a proposed ninth-century Obadiah dating; those periods do not overlap.",
+      "evidence": [
+        "2KI.8.16",
+        "JER.1.2",
+        "DAN.1.1",
+        "EZK.1.1"
+      ]
+    },
+    {
+      "id": "utw:v91:names:og",
+      "slug": "og",
+      "title": "Og",
+      "sourcePath": "names/entries/og.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:omri",
+      "slug": "omri",
+      "title": "Omri",
+      "sourcePath": "names/entries/omri.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Says Omri ruled all twelve years in Tirzah; Scripture says only six years there, followed by Samaria.",
+      "evidence": [
+        "1KI.16.23",
+        "1KI.16.24"
+      ]
+    },
+    {
+      "id": "utw:v91:names:paddanaram",
+      "slug": "paddanaram",
+      "title": "Paddan Aram",
+      "sourcePath": "names/entries/paddanaram.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Calls Rebekah Bethuel's granddaughter rather than his daughter and Nahor's granddaughter.",
+      "evidence": [
+        "GEN.24.15",
+        "GEN.24.47"
+      ]
+    },
+    {
+      "id": "utw:v91:names:paran",
+      "slug": "paran",
+      "title": "Paran",
+      "sourcePath": "names/entries/paran.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:paul",
+      "slug": "paul",
+      "title": "Paul, Saul",
+      "sourcePath": "names/entries/paul.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:peor",
+      "slug": "peor",
+      "title": "Peor, Mount Peor, Baal Peor",
+      "sourcePath": "names/entries/peor.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "States Beth-peor is where Moses died; the death scene is Mount Nebo/Pisgah, with burial opposite Beth-peor.",
+      "evidence": [
+        "DEU.34.1",
+        "DEU.34.5",
+        "DEU.34.6"
+      ]
+    },
+    {
+      "id": "utw:v91:names:perizzite",
+      "slug": "perizzite",
+      "title": "Perizzite",
+      "sourcePath": "names/entries/perizzite.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:persia",
+      "slug": "persia",
+      "title": "Persia, Persians",
+      "sourcePath": "names/entries/persia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:peter",
+      "slug": "peter",
+      "title": "Peter, Simon Peter, Cephas",
+      "sourcePath": "names/entries/peter.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:pharaoh",
+      "slug": "pharaoh",
+      "title": "Pharaoh, king of Egypt",
+      "sourcePath": "names/entries/pharaoh.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:philip",
+      "slug": "philip",
+      "title": "Philip (the evangelist)",
+      "sourcePath": "names/entries/philip.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:philippi",
+      "slug": "philippi",
+      "title": "Philippi, Philippians",
+      "sourcePath": "names/entries/philippi.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:philiptheapostle",
+      "slug": "philiptheapostle",
+      "title": "Philip (the apostle)",
+      "sourcePath": "names/entries/philiptheapostle.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:philistia",
+      "slug": "philistia",
+      "title": "Philistia",
+      "sourcePath": "names/entries/philistia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:philistines",
+      "slug": "philistines",
+      "title": "Philistines",
+      "sourcePath": "names/entries/philistines.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:phinehas",
+      "slug": "phinehas",
+      "title": "Phinehas",
+      "sourcePath": "names/entries/phinehas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:phonecia",
+      "slug": "phonecia",
+      "title": "Phoenicia, Syrophoenician",
+      "sourcePath": "names/entries/phonecia.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:pilate",
+      "slug": "pilate",
+      "title": "Pilate",
+      "sourcePath": "names/entries/pilate.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:pontus",
+      "slug": "pontus",
+      "title": "Pontus",
+      "sourcePath": "names/entries/pontus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:potiphar",
+      "slug": "potiphar",
+      "title": "Potiphar",
+      "sourcePath": "names/entries/potiphar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:priscilla",
+      "slug": "priscilla",
+      "title": "Priscilla, Prisca",
+      "sourcePath": "names/entries/priscilla.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Says Emperor Claudius expelled Christians from Rome; Acts says he ordered Jews to leave.",
+      "evidence": [
+        "ACT.18.2"
+      ]
+    },
+    {
+      "id": "utw:v91:names:rabbah",
+      "slug": "rabbah",
+      "title": "Rabbah",
+      "sourcePath": "names/entries/rabbah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rachel",
+      "slug": "rachel",
+      "title": "Rachel",
+      "sourcePath": "names/entries/rachel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rahab",
+      "slug": "rahab",
+      "title": "Rahab",
+      "sourcePath": "names/entries/rahab.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ramah",
+      "slug": "ramah",
+      "title": "Ramah",
+      "sourcePath": "names/entries/ramah.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Claims Rachel died at Ramah; Genesis locates her death and burial by the road to Ephrath/Bethlehem.",
+      "evidence": [
+        "GEN.35.19",
+        "JER.31.15"
+      ]
+    },
+    {
+      "id": "utw:v91:names:ramoth",
+      "slug": "ramoth",
+      "title": "Ramoth",
+      "sourcePath": "names/entries/ramoth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rapha",
+      "slug": "rapha",
+      "title": "Rapha, Raphaites, the Valley of the Raphaites",
+      "sourcePath": "names/entries/rapha.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rebekah",
+      "slug": "rebekah",
+      "title": "Rebekah",
+      "sourcePath": "names/entries/rebekah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:redsea",
+      "slug": "redsea",
+      "title": "Sea of Reeds, Red Sea",
+      "sourcePath": "names/entries/redsea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rehoboam",
+      "slug": "rehoboam",
+      "title": "Rehoboam",
+      "sourcePath": "names/entries/rehoboam.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:reuben",
+      "slug": "reuben",
+      "title": "Reuben",
+      "sourcePath": "names/entries/reuben.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rimmon",
+      "slug": "rimmon",
+      "title": "Rimmon",
+      "sourcePath": "names/entries/rimmon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:rome",
+      "slug": "rome",
+      "title": "Rome, Roman",
+      "sourcePath": "names/entries/rome.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ruth",
+      "slug": "ruth",
+      "title": "Ruth",
+      "sourcePath": "names/entries/ruth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:saltsea",
+      "slug": "saltsea",
+      "title": "Salt Sea, Dead Sea",
+      "sourcePath": "names/entries/saltsea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:samaria",
+      "slug": "samaria",
+      "title": "Samaria, Samaritan",
+      "sourcePath": "names/entries/samaria.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:samson",
+      "slug": "samson",
+      "title": "Samson",
+      "sourcePath": "names/entries/samson.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:samuel",
+      "slug": "samuel",
+      "title": "Samuel",
+      "sourcePath": "names/entries/samuel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sarah",
+      "slug": "sarah",
+      "title": "Sarah, Sarai",
+      "sourcePath": "names/entries/sarah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:saul",
+      "slug": "saul",
+      "title": "Saul (OT)",
+      "sourcePath": "names/entries/saul.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:seaofgalilee",
+      "slug": "seaofgalilee",
+      "title": "Sea of Galilee, Sea of Kinnereth, lake of Gennesaret, Sea of Tiberias",
+      "sourcePath": "names/entries/seaofgalilee.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:seir",
+      "slug": "seir",
+      "title": "Seir, sons of Seir, Mount Seir, mountains of Seir, land of Seir",
+      "sourcePath": "names/entries/seir.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sennacherib",
+      "slug": "sennacherib",
+      "title": "Sennacherib",
+      "sourcePath": "names/entries/sennacherib.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:seth",
+      "slug": "seth",
+      "title": "Seth",
+      "sourcePath": "names/entries/seth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sharon",
+      "slug": "sharon",
+      "title": "Sharon, Plain of Sharon",
+      "sourcePath": "names/entries/sharon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sheba",
+      "slug": "sheba",
+      "title": "Sheba",
+      "sourcePath": "names/entries/sheba.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:shechem",
+      "slug": "shechem",
+      "title": "Shechem",
+      "sourcePath": "names/entries/shechem.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:shem",
+      "slug": "shem",
+      "title": "Shem",
+      "sourcePath": "names/entries/shem.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:shiloh",
+      "slug": "shiloh",
+      "title": "Shiloh",
+      "sourcePath": "names/entries/shiloh.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:shimei",
+      "slug": "shimei",
+      "title": "Shimei",
+      "sourcePath": "names/entries/shimei.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:shinar",
+      "slug": "shinar",
+      "title": "Shinar",
+      "sourcePath": "names/entries/shinar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sidon",
+      "slug": "sidon",
+      "title": "Sidon, Sidonians",
+      "sourcePath": "names/entries/sidon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sihon",
+      "slug": "sihon",
+      "title": "Sihon",
+      "sourcePath": "names/entries/sihon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:silas",
+      "slug": "silas",
+      "title": "Silas, Silvanus",
+      "sourcePath": "names/entries/silas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:simeon",
+      "slug": "simeon",
+      "title": "Simeon",
+      "sourcePath": "names/entries/simeon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:simonthezealot",
+      "slug": "simonthezealot",
+      "title": "Simon the Zealot",
+      "sourcePath": "names/entries/simonthezealot.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sinai",
+      "slug": "sinai",
+      "title": "Sinai, Horeb",
+      "sourcePath": "names/entries/sinai.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:sodom",
+      "slug": "sodom",
+      "title": "Sodom",
+      "sourcePath": "names/entries/sodom.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:solomon",
+      "slug": "solomon",
+      "title": "Solomon",
+      "sourcePath": "names/entries/solomon.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:stephen",
+      "slug": "stephen",
+      "title": "Stephen",
+      "sourcePath": "names/entries/stephen.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:succoth",
+      "slug": "succoth",
+      "title": "Succoth",
+      "sourcePath": "names/entries/succoth.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:syria",
+      "slug": "syria",
+      "title": "Syria, Ashur",
+      "sourcePath": "names/entries/syria.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tamar",
+      "slug": "tamar",
+      "title": "Tamar",
+      "sourcePath": "names/entries/tamar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tarshish",
+      "slug": "tarshish",
+      "title": "Tarshish",
+      "sourcePath": "names/entries/tarshish.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tarsus",
+      "slug": "tarsus",
+      "title": "Tarsus",
+      "sourcePath": "names/entries/tarsus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:terah",
+      "slug": "terah",
+      "title": "Terah",
+      "sourcePath": "names/entries/terah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:thegreatsea",
+      "slug": "thegreatsea",
+      "title": "the sea, the Great Sea, the western sea",
+      "sourcePath": "names/entries/thegreatsea.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:thessalonica",
+      "slug": "thessalonica",
+      "title": "Thessalonica, Thessalonian",
+      "sourcePath": "names/entries/thessalonica.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:thomas",
+      "slug": "thomas",
+      "title": "Thomas",
+      "sourcePath": "names/entries/thomas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:timothy",
+      "slug": "timothy",
+      "title": "Timothy",
+      "sourcePath": "names/entries/timothy.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tirzah",
+      "slug": "tirzah",
+      "title": "Tirzah",
+      "sourcePath": "names/entries/tirzah.json",
+      "decision": "EXCLUDE_OBVIOUS_ERROR",
+      "displayEligible": false,
+      "reason": "Identifies Tirzah as Gilead's daughter/Manasseh's granddaughter; she is Zelophehad's daughter, several generations later.",
+      "evidence": [
+        "NUM.27.1",
+        "JOS.17.3"
+      ]
+    },
+    {
+      "id": "utw:v91:names:titus",
+      "slug": "titus",
+      "title": "Titus",
+      "sourcePath": "names/entries/titus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:troas",
+      "slug": "troas",
+      "title": "Troas",
+      "sourcePath": "names/entries/troas.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tubal",
+      "slug": "tubal",
+      "title": "Tubal",
+      "sourcePath": "names/entries/tubal.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tychicus",
+      "slug": "tychicus",
+      "title": "Tychicus",
+      "sourcePath": "names/entries/tychicus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:tyre",
+      "slug": "tyre",
+      "title": "Tyre, Tyrians",
+      "sourcePath": "names/entries/tyre.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:ur",
+      "slug": "ur",
+      "title": "Ur",
+      "sourcePath": "names/entries/ur.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:uriah",
+      "slug": "uriah",
+      "title": "Uriah",
+      "sourcePath": "names/entries/uriah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:uzziah",
+      "slug": "uzziah",
+      "title": "Uzziah, Azariah",
+      "sourcePath": "names/entries/uzziah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:vashti",
+      "slug": "vashti",
+      "title": "Vashti",
+      "sourcePath": "names/entries/vashti.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zacchaeus",
+      "slug": "zacchaeus",
+      "title": "Zacchaeus",
+      "sourcePath": "names/entries/zacchaeus.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zadok",
+      "slug": "zadok",
+      "title": "Zadok",
+      "sourcePath": "names/entries/zadok.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zebedee",
+      "slug": "zebedee",
+      "title": "Zebedee",
+      "sourcePath": "names/entries/zebedee.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zebulun",
+      "slug": "zebulun",
+      "title": "Zebulun",
+      "sourcePath": "names/entries/zebulun.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zechariahnt",
+      "slug": "zechariahnt",
+      "title": "Zechariah (NT)",
+      "sourcePath": "names/entries/zechariahnt.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zechariahot",
+      "slug": "zechariahot",
+      "title": "Zechariah (OT)",
+      "sourcePath": "names/entries/zechariahot.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zedekiah",
+      "slug": "zedekiah",
+      "title": "Zedekiah",
+      "sourcePath": "names/entries/zedekiah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zephaniah",
+      "slug": "zephaniah",
+      "title": "Zephaniah",
+      "sourcePath": "names/entries/zephaniah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zerubbabel",
+      "slug": "zerubbabel",
+      "title": "Zerubbabel",
+      "sourcePath": "names/entries/zerubbabel.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zilpah",
+      "slug": "zilpah",
+      "title": "Zilpah",
+      "sourcePath": "names/entries/zilpah.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    },
+    {
+      "id": "utw:v91:names:zoar",
+      "slug": "zoar",
+      "title": "Zoar",
+      "sourcePath": "names/entries/zoar.json",
+      "decision": "NO_OBVIOUS_ERROR_FOUND_IN_LIMITED_SCREEN",
+      "displayEligible": true
+    }
+  ]
+}
