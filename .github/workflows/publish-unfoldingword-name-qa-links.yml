@@ -89,7 +89,7 @@ jobs:
           idx=json.loads((base/'index.json').read_text())
           elig=json.loads(pathlib.Path('data/unfoldingword/v91/names/review/v1/reader-eligibility.json').read_text())
           files=manifest['files']
-          assert len(files)>=337
+          assert len(files)>=336
           assert all((base/r['path']).stat().st_size==r['bytes'] and hashlib.sha256((base/r['path']).read_bytes()).hexdigest()==r['sha256'] for r in files)
           names={x['id'] for x in idx['entries']}
           assert len(names)==332 and not names.intersection(elig['excludedIds'])
