@@ -25,3 +25,13 @@ Local ZIP SHA-256: 4f29f71d6c252c16c482a51e19e6d988a8b8f3f0d3666ba31c44ec9db447f
 Archive: https://drive.google.com/file/d/1WhOcCxt5BaRRHHYE2ZaH2lmk7gXcKyJU/view
 
 Local ZIP SHA-256 e24a6c16871457581bef2df9fe2b3208ca4ca6fc5aa1a9e2152ef0be15ed344e; six internal hashes verified. Drive upload succeeded; remote byte parity not independently checked. Owner authorized exclusion of remaining 6,327 unclassified rows (13,524 tags) from active reader review, not permanent destruction. Complete rows preserved in excluded_tail_audit.jsonl; prior Stage 3 archive preserved. Active 40,249 rows / 92,330 tags: 4,876 approved retain, 35,373 grouped pending content review, zero unassigned, 68 review groups. Next: content usefulness decisions for categorized groups, especially mixed subjects; then canonical Scripture validation and pilot. No production/publication changes or rights clearance.
+
+## Stage 5 checkpoint (recorded retrospectively)
+
+Archive: https://drive.google.com/file/d/1C15fIZb-j5It0Uv2ucF_Q56YWErDRAcI/view
+Local Stage 5 input used for Stage 6 SHA-256: 0c700c5370e2a10ec8316fe49394bd0eb7c6c0787eb5f53c1881b7a205a7f8bd; eight internal hashes verified. Remote byte parity not independently verified. Owner approved positive retention: if relevance requires searching hard, exclude from active reader projection, preserve audit. Mixed screen 7,368 rows: 98 retained, 7,270 excluded / 13,264 tags. Active 32,979 rows / 79,066 tags.
+
+## Stage 6 checkpoint
+
+Archive: https://drive.google.com/file/d/1M2v7F6DvYAaUzawK7ZANMR0vochsutNe/view
+Local SHA-256 a6e8eea303b5eec9868932d07d555cc847acaacbb0dfeb166839d101b4891a05; nine internal file hashes verified. Drive upload confirmed, remote byte parity not independently checked. Screened 7,922 rows across biblical history, history and society, nature, daily life, human life: 211 retain candidates, 7,711 excluded / 14,573 tags. Explicit covenant, justice and prophecy topic candidates protected pending content review. Active 25,268 rows / 64,493 tags. Prior approved records unchanged. All new exclusions archived; previous stages preserved. Rule-based positive screen is not individual semantic adjudication or Scripture validation. Next: core theological and Christian living content review, including broad/generic headings, redundant entries and preserved mixed/historical candidates; then canonical scope validation and 50-entry pilot. No production or publication changes; rights gate open.
