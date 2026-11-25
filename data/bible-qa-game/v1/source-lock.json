@@ -13,5 +13,14 @@
     "count": 12139,
     "shards": 8
   },
-  "note": "Pin individual shard hashes and topic manifest before evaluation."
+  "note": "Pin individual shard hashes and topic manifest before evaluation.",
+  "creation": {
+    "questionShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicIndexBlob": "e2630ef016fac0639c74a686c5f784349a15e230",
+    "scriptureIndexBlob": "2eef52631a5dbf440f415e4012af9583538b32f3",
+    "scriptureChapterBlobs": {
+      "GEN.1": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "GEN.2": "59ced6715b5d382c14ac8994c7913cd281927fd0"
+    }
+  }
 }
