@@ -97,5 +97,16 @@
       "distractors",
       "Scripture and topic checks"
     ]
+  },
+  {
+    "id": "utq:v91:GEN:2:9:sx2v",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Owner approved two-trees question; meaningful and standalone",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
   }
 ]
