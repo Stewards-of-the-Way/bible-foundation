@@ -1,1 +1,415 @@
-[]
+[
+  {
+    "id": "utq:v91:GEN:1:2:hxnl",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Easily overlooked, thought-provoking detail",
+    "pending": [],
+    "question": "What was the Spirit of God doing in the beginning?",
+    "answer": "The Spirit of God was moving above the surface of the waters.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        2,
+        0
+      ]
+    ],
+    "distractors": [
+      "The Spirit of God was moving over the face of the earth.",
+      "The Spirit of God was moving between the heavens and the earth.",
+      "The Spirit of God was moving through the darkness above the earth."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "chapter",
+        "reference": "GEN.1",
+        "topicId": "NEUU:TOPIC:xml-nav-c-p2128.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    },
+    "reviewNote": "Approved wording retained; face of earth distractor potentially broad, cited verse specifically says waters."
+  },
+  {
+    "id": "utq:v91:GEN:1:7-8:op7t",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Meaningful sequence",
+    "pending": [],
+    "question": "What did God make on the second day?",
+    "answer": "God made the sky, which he called the “Heavens,” between the expanses of water.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        7,
+        8
+      ]
+    ],
+    "distractors": [
+      "God made the dry ground, which he called the “Land,” separating it from the waters.",
+      "God made the greater and lesser lights, separating the day from the night.",
+      "God made the vegetation, including plants and trees bearing their own seed."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.7",
+      "GEN.1.8"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.1.7",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      },
+      {
+        "scope": "verse",
+        "reference": "GEN.1.8",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:1:11-12:nc8q",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Interesting order",
+    "pending": [],
+    "question": "What living things did God make on the third day?",
+    "answer": "God made plants, fruit trees, and vegetation on the third day.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        11,
+        12
+      ]
+    ],
+    "distractors": [
+      "God made fish, sea creatures, and birds on the third day.",
+      "God made livestock, wild animals, and creeping things on the third day.",
+      "God made the creatures of the land and the sea on the third day."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.11",
+      "GEN.1.12"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.1.11",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      },
+      {
+        "scope": "verse",
+        "reference": "GEN.1.12",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:1:14:kh88",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Challenges assumptions",
+    "pending": [],
+    "question": "What is the purpose of the lights in the sky?",
+    "answer": "They are to divide the day from the night, and for signs, and for seasons, and for days and years.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        14,
+        0
+      ]
+    ],
+    "distractors": [
+      "They are to divide the waters above from the waters below, and to mark the boundaries of the heavens.",
+      "They are to give warmth to the earth, and for the growth of plants, trees, and their fruit.",
+      "They are to guide the creatures of the sea and sky, and to mark the boundaries of land and water."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.14"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.1.14",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:1:16:mgsa",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Meaningful order",
+    "pending": [],
+    "question": "What did God make on the fourth day?",
+    "answer": "God made the two great lights and the stars.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        16,
+        0
+      ]
+    ],
+    "distractors": [
+      "God made the sky and the expanse between the waters.",
+      "God made the creatures of the sea and the birds.",
+      "God made the dry land and the plants."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.16"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.1.16",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:1:21:next",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Meaningful order",
+    "pending": [],
+    "question": "What did God make on the fifth day?",
+    "answer": "God made the living creatures of the water, and birds.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        21,
+        0
+      ]
+    ],
+    "distractors": [
+      "God made the living creatures of the land, and livestock.",
+      "God made the plants of the earth, and fruit trees.",
+      "God made the beasts of the field, and creeping things."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.21"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.1.21",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:1:26:gfpf",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Simple but invites deeper reflection",
+    "pending": [],
+    "question": "What did God make in his image?",
+    "answer": "God made man in his image.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        26,
+        0
+      ]
+    ],
+    "distractors": [
+      "God made the angels in his image.",
+      "God made the heavenly lights in his image.",
+      "God made the living creatures in his image."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "chapter",
+        "reference": "GEN.1",
+        "topicId": "NEUU:TOPIC:xml-nav-c-p2128.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:2:2-3:e07v",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Enduring pattern established in creation",
+    "pending": [],
+    "question": "What did God do on the seventh day?",
+    "answer": "He rested from all his work, and he blessed and sanctified the day.",
+    "citations": [
+      [
+        "GEN",
+        2,
+        2,
+        3
+      ]
+    ],
+    "distractors": [
+      "He completed the work of making man, and he blessed and sanctified the day.",
+      "He gave man dominion over the earth, and he blessed and sanctified the day.",
+      "He finished making the living creatures, and he blessed and sanctified the day."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.2.2",
+      "GEN.2.3"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.2.2",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      },
+      {
+        "scope": "verse",
+        "reference": "GEN.2.3",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "59ced6715b5d382c14ac8994c7913cd281927fd0",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:1:28:jh4n",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Owner likes question; meaningful original instruction to humanity",
+    "pending": [],
+    "question": "What command did God give man?",
+    "answer": "He told man to be fruitful and multiply, fill the earth and subdue it.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        28,
+        0
+      ]
+    ],
+    "distractors": [
+      "He told man to be fruitful and multiply, fill the garden and remain within it.",
+      "He told man to be fruitful and multiply, tend the earth and leave its creatures to rule themselves.",
+      "He told man to be fruitful and multiply, fill the earth and rule only over its plants."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.28"
+    ],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "verse",
+        "reference": "GEN.1.28",
+        "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "a5a641ad915dd49333ff3a9b68113a9032278210",
+      "status": "pass"
+    }
+  },
+  {
+    "id": "utq:v91:GEN:2:9:sx2v",
+    "topic": "Creation",
+    "status": "accepted",
+    "ownerDecision": "keep",
+    "reason": "Owner approved two-trees question; meaningful and standalone",
+    "pending": [],
+    "question": "What two trees were in the midst of the garden?",
+    "answer": "The tree of life and the tree of the knowledge of good and evil.",
+    "citations": [
+      [
+        "GEN",
+        2,
+        9,
+        0
+      ]
+    ],
+    "distractors": [
+      "The tree of life and the tree of the knowledge of wisdom and understanding.",
+      "The tree of wisdom and the tree of the knowledge of good and evil.",
+      "The tree of life and the tree of the knowledge of life and death."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [],
+    "distractorReview": "Owner approved exact wording; locked",
+    "topicAssociations": [
+      {
+        "scope": "chapter",
+        "reference": "GEN.2",
+        "topicId": "NEUU:TOPIC:xml-nav-c-p2128.3"
+      }
+    ],
+    "scriptureVerification": {
+      "edition": "KJV1769",
+      "chapterBlob": "59ced6715b5d382c14ac8994c7913cd281927fd0",
+      "status": "pass"
+    }
+  }
+]
