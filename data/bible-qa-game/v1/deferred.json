@@ -6,9 +6,27 @@
     "ownerDecision": "keep",
     "reason": "Easily overlooked, thought-provoking detail",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
-    ]
+      "Scripture text check",
+      "distractor review",
+      "Creation topic association"
+    ],
+    "question": "What was the Spirit of God doing in the beginning?",
+    "answer": "The Spirit of God was moving above the surface of the waters.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        2,
+        0
+      ]
+    ],
+    "distractors": [
+      "Moving across the dry land.",
+      "Resting above the heavens.",
+      "Separating the land from the sea."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": []
   },
   {
     "id": "utq:v91:GEN:1:7-8:op7t",
@@ -17,8 +35,28 @@
     "ownerDecision": "keep",
     "reason": "Meaningful sequence",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What did God make on the second day?",
+    "answer": "God made the sky, which he called the “Heavens,” between the expanses of water.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        7,
+        8
+      ]
+    ],
+    "distractors": [
+      "The two great lights and the stars.",
+      "Plants and fruit trees.",
+      "Sea creatures and birds."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.7",
+      "GEN.1.8"
     ]
   },
   {
@@ -28,8 +66,28 @@
     "ownerDecision": "keep",
     "reason": "Interesting order",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What living things did God make on the third day?",
+    "answer": "God made plants, fruit trees, and vegetation on the third day.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        11,
+        12
+      ]
+    ],
+    "distractors": [
+      "Sea creatures and birds.",
+      "Land animals and creeping things.",
+      "The two great lights and the stars."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.11",
+      "GEN.1.12"
     ]
   },
   {
@@ -39,8 +97,27 @@
     "ownerDecision": "keep",
     "reason": "Challenges assumptions",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What is the purpose of the lights in the sky?",
+    "answer": "They are to divide the day from the night, and for signs, and for seasons, and for days and years.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        14,
+        0
+      ]
+    ],
+    "distractors": [
+      "To divide the waters above from the waters below.",
+      "To mark the boundaries between land and sea.",
+      "To cause plants and trees to produce fruit."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.14"
     ]
   },
   {
@@ -50,8 +127,27 @@
     "ownerDecision": "keep",
     "reason": "Meaningful order",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What did God make on the fourth day?",
+    "answer": "God made the two great lights and the stars.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        16,
+        0
+      ]
+    ],
+    "distractors": [
+      "The sky between the waters.",
+      "Sea creatures and birds.",
+      "Land animals and mankind."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.16"
     ]
   },
   {
@@ -61,8 +157,27 @@
     "ownerDecision": "keep",
     "reason": "Meaningful order",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What did God make on the fifth day?",
+    "answer": "God made the living creatures of the water, and birds.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        21,
+        0
+      ]
+    ],
+    "distractors": [
+      "Plants and fruit trees.",
+      "Land animals and mankind.",
+      "The two great lights and the stars."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.21"
     ]
   },
   {
@@ -72,9 +187,27 @@
     "ownerDecision": "keep",
     "reason": "Simple but invites deeper reflection",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
-    ]
+      "Scripture text check",
+      "distractor review",
+      "Creation topic association"
+    ],
+    "question": "What did God make in his image?",
+    "answer": "God made man in his image.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        26,
+        0
+      ]
+    ],
+    "distractors": [
+      "The angels.",
+      "The creatures of the sea.",
+      "The stars of heaven."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": []
   },
   {
     "id": "utq:v91:GEN:2:2-3:e07v",
@@ -83,8 +216,28 @@
     "ownerDecision": "keep",
     "reason": "Enduring pattern established in creation",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What did God do on the seventh day?",
+    "answer": "He rested from all his work, and he blessed and sanctified the day.",
+    "citations": [
+      [
+        "GEN",
+        2,
+        2,
+        3
+      ]
+    ],
+    "distractors": [
+      "He created the lights in the heavens.",
+      "He formed the beasts of the earth.",
+      "He separated the dry land from the waters."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.2.2",
+      "GEN.2.3"
     ]
   },
   {
@@ -94,8 +247,27 @@
     "ownerDecision": "keep",
     "reason": "Owner likes question; meaningful original instruction to humanity",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
+      "Scripture text check",
+      "distractor review"
+    ],
+    "question": "What command did God give man?",
+    "answer": "He told man to be fruitful and multiply, fill the earth and subdue it.",
+    "citations": [
+      [
+        "GEN",
+        1,
+        28,
+        0
+      ]
+    ],
+    "distractors": [
+      "Remain in one place and leave the earth unoccupied.",
+      "Multiply but exercise no rule over the earth.",
+      "Fill the seas and leave the land to the animals."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": [
+      "GEN.1.28"
     ]
   },
   {
@@ -105,8 +277,26 @@
     "ownerDecision": "keep",
     "reason": "Owner approved two-trees question; meaningful and standalone",
     "pending": [
-      "distractors",
-      "Scripture and topic checks"
-    ]
+      "Scripture text check",
+      "distractor review",
+      "Creation topic association"
+    ],
+    "question": "What two trees were in the midst of the garden?",
+    "answer": "The tree of life and the tree of the knowledge of good and evil.",
+    "citations": [
+      [
+        "GEN",
+        2,
+        9,
+        0
+      ]
+    ],
+    "distractors": [
+      "The fig tree and the olive tree.",
+      "The tree of life and the cedar tree.",
+      "The tree of the knowledge of good and evil and the fig tree."
+    ],
+    "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
+    "topicEvidence": []
   }
 ]
