@@ -86,5 +86,16 @@
       "distractors",
       "Scripture and topic checks"
     ]
+  },
+  {
+    "id": "utq:v91:GEN:1:28:jh4n",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Owner likes question; meaningful original instruction to humanity",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
   }
 ]
