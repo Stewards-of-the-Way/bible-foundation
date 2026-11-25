@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "utq:v91:GEN:1:1:i4zd",
+    "topic": "Creation",
+    "status": "excluded",
+    "ownerDecision": "exclude",
+    "reason": "Too obvious"
+  },
+  {
+    "id": "utq:v91:GEN:1:3:yzts",
+    "topic": "Creation",
+    "status": "excluded",
+    "ownerDecision": "exclude",
+    "reason": "Predictable answer; low variety"
+  }
+]
