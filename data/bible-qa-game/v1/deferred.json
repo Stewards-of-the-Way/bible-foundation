@@ -7,7 +7,6 @@
     "reason": "Easily overlooked, thought-provoking detail",
     "pending": [
       "Scripture text check",
-      "distractor review",
       "Creation topic association"
     ],
     "question": "What was the Spirit of God doing in the beginning?",
@@ -27,7 +26,7 @@
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:7-8:op7t",
@@ -36,8 +35,7 @@
     "ownerDecision": "keep",
     "reason": "Meaningful sequence",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What did God make on the second day?",
     "answer": "God made the sky, which he called the “Heavens,” between the expanses of water.",
@@ -59,7 +57,7 @@
       "GEN.1.7",
       "GEN.1.8"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:11-12:nc8q",
@@ -68,8 +66,7 @@
     "ownerDecision": "keep",
     "reason": "Interesting order",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What living things did God make on the third day?",
     "answer": "God made plants, fruit trees, and vegetation on the third day.",
@@ -91,7 +88,7 @@
       "GEN.1.11",
       "GEN.1.12"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:14:kh88",
@@ -100,8 +97,7 @@
     "ownerDecision": "keep",
     "reason": "Challenges assumptions",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What is the purpose of the lights in the sky?",
     "answer": "They are to divide the day from the night, and for signs, and for seasons, and for days and years.",
@@ -122,7 +118,7 @@
     "topicEvidence": [
       "GEN.1.14"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:16:mgsa",
@@ -131,8 +127,7 @@
     "ownerDecision": "keep",
     "reason": "Meaningful order",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What did God make on the fourth day?",
     "answer": "God made the two great lights and the stars.",
@@ -153,7 +148,7 @@
     "topicEvidence": [
       "GEN.1.16"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:21:next",
@@ -162,8 +157,7 @@
     "ownerDecision": "keep",
     "reason": "Meaningful order",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What did God make on the fifth day?",
     "answer": "God made the living creatures of the water, and birds.",
@@ -184,7 +178,7 @@
     "topicEvidence": [
       "GEN.1.21"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:26:gfpf",
@@ -194,7 +188,6 @@
     "reason": "Simple but invites deeper reflection",
     "pending": [
       "Scripture text check",
-      "distractor review",
       "Creation topic association"
     ],
     "question": "What did God make in his image?",
@@ -214,7 +207,7 @@
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:2:2-3:e07v",
@@ -223,8 +216,7 @@
     "ownerDecision": "keep",
     "reason": "Enduring pattern established in creation",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What did God do on the seventh day?",
     "answer": "He rested from all his work, and he blessed and sanctified the day.",
@@ -246,7 +238,7 @@
       "GEN.2.2",
       "GEN.2.3"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:1:28:jh4n",
@@ -255,8 +247,7 @@
     "ownerDecision": "keep",
     "reason": "Owner likes question; meaningful original instruction to humanity",
     "pending": [
-      "Scripture text check",
-      "distractor review"
+      "Scripture text check"
     ],
     "question": "What command did God give man?",
     "answer": "He told man to be fruitful and multiply, fill the earth and subdue it.",
@@ -277,7 +268,7 @@
     "topicEvidence": [
       "GEN.1.28"
     ],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   },
   {
     "id": "utq:v91:GEN:2:9:sx2v",
@@ -287,7 +278,6 @@
     "reason": "Owner approved two-trees question; meaningful and standalone",
     "pending": [
       "Scripture text check",
-      "distractor review",
       "Creation topic association"
     ],
     "question": "What two trees were in the midst of the garden?",
@@ -307,6 +297,6 @@
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [],
-    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
+    "distractorReview": "Owner approved exact wording; locked"
   }
 ]
