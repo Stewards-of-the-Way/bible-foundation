@@ -21,12 +21,13 @@
       ]
     ],
     "distractors": [
-      "Moving across the dry land.",
-      "Resting above the heavens.",
-      "Separating the land from the sea."
+      "The Spirit of God was moving over the face of the earth.",
+      "The Spirit of God was moving between the heavens and the earth.",
+      "The Spirit of God was moving through the darkness above the earth."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
-    "topicEvidence": []
+    "topicEvidence": [],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:7-8:op7t",
@@ -49,15 +50,16 @@
       ]
     ],
     "distractors": [
-      "The two great lights and the stars.",
-      "Plants and fruit trees.",
-      "Sea creatures and birds."
+      "God made the dry ground, which he called the “Land,” separating it from the waters.",
+      "God made the greater and lesser lights, separating the day from the night.",
+      "God made the vegetation, including plants and trees bearing their own seed."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.1.7",
       "GEN.1.8"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:11-12:nc8q",
@@ -80,15 +82,16 @@
       ]
     ],
     "distractors": [
-      "Sea creatures and birds.",
-      "Land animals and creeping things.",
-      "The two great lights and the stars."
+      "God made fish, sea creatures, and birds on the third day.",
+      "God made livestock, wild animals, and creeping things on the third day.",
+      "God made the creatures of the land and the sea on the third day."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.1.11",
       "GEN.1.12"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:14:kh88",
@@ -111,14 +114,15 @@
       ]
     ],
     "distractors": [
-      "To divide the waters above from the waters below.",
-      "To mark the boundaries between land and sea.",
-      "To cause plants and trees to produce fruit."
+      "They are to divide the waters above from the waters below, and to mark the boundaries of the heavens.",
+      "They are to give warmth to the earth, and for the growth of plants, trees, and their fruit.",
+      "They are to guide the creatures of the sea and sky, and to mark the boundaries of land and water."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.1.14"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:16:mgsa",
@@ -141,14 +145,15 @@
       ]
     ],
     "distractors": [
-      "The sky between the waters.",
-      "Sea creatures and birds.",
-      "Land animals and mankind."
+      "God made the sky and the expanse between the waters.",
+      "God made the creatures of the sea and the birds.",
+      "God made the dry land and the plants."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.1.16"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:21:next",
@@ -171,14 +176,15 @@
       ]
     ],
     "distractors": [
-      "Plants and fruit trees.",
-      "Land animals and mankind.",
-      "The two great lights and the stars."
+      "God made the living creatures of the land, and livestock.",
+      "God made the plants of the earth, and fruit trees.",
+      "God made the beasts of the field, and creeping things."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.1.21"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:26:gfpf",
@@ -202,12 +208,13 @@
       ]
     ],
     "distractors": [
-      "The angels.",
-      "The creatures of the sea.",
-      "The stars of heaven."
+      "God made the angels in his image.",
+      "God made the heavenly lights in his image.",
+      "God made the living creatures in his image."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
-    "topicEvidence": []
+    "topicEvidence": [],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:2:2-3:e07v",
@@ -230,15 +237,16 @@
       ]
     ],
     "distractors": [
-      "He created the lights in the heavens.",
-      "He formed the beasts of the earth.",
-      "He separated the dry land from the waters."
+      "He completed the work of making man, and he blessed and sanctified the day.",
+      "He gave man dominion over the earth, and he blessed and sanctified the day.",
+      "He finished making the living creatures, and he blessed and sanctified the day."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.2.2",
       "GEN.2.3"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:1:28:jh4n",
@@ -261,14 +269,15 @@
       ]
     ],
     "distractors": [
-      "Remain in one place and leave the earth unoccupied.",
-      "Multiply but exercise no rule over the earth.",
-      "Fill the seas and leave the land to the animals."
+      "He told man to be fruitful and multiply, fill the garden and remain within it.",
+      "He told man to be fruitful and multiply, tend the earth and leave its creatures to rule themselves.",
+      "He told man to be fruitful and multiply, fill the earth and rule only over its plants."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
     "topicEvidence": [
       "GEN.1.28"
-    ]
+    ],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   },
   {
     "id": "utq:v91:GEN:2:9:sx2v",
@@ -292,11 +301,12 @@
       ]
     ],
     "distractors": [
-      "The fig tree and the olive tree.",
-      "The tree of life and the cedar tree.",
-      "The tree of the knowledge of good and evil and the fig tree."
+      "The tree of life and the tree of the knowledge of wisdom and understanding.",
+      "The tree of wisdom and the tree of the knowledge of good and evil.",
+      "The tree of life and the tree of the knowledge of life and death."
     ],
     "sourceShardBlob": "bc5a94ce799772be4520e1e49d83c96df8ed5798",
-    "topicEvidence": []
+    "topicEvidence": [],
+    "distractorReview": "Revised to owner-approved parallel wording standard; individual sets pending final review"
   }
 ]
