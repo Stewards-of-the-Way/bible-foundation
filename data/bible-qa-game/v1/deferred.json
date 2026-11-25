@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "utq:v91:GEN:1:2:hxnl",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Easily overlooked, thought-provoking detail",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:1:7-8:op7t",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Meaningful sequence",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:1:11-12:nc8q",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Interesting order",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:1:14:kh88",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Challenges assumptions",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:1:16:mgsa",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Meaningful order",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:1:21:next",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Meaningful order",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:1:26:gfpf",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Simple but invites deeper reflection",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  },
+  {
+    "id": "utq:v91:GEN:2:2-3:e07v",
+    "topic": "Creation",
+    "status": "deferred",
+    "ownerDecision": "keep",
+    "reason": "Enduring pattern established in creation",
+    "pending": [
+      "distractors",
+      "Scripture and topic checks"
+    ]
+  }
+]
