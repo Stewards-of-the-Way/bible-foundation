@@ -1,1 +1,119 @@
-{}
+{
+  "Creation": [
+    {
+      "id": "utq:v91:GEN:1:2:hxnl",
+      "associations": [
+        {
+          "scope": "chapter",
+          "reference": "GEN.1",
+          "topicId": "NEUU:TOPIC:xml-nav-c-p2128.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:7-8:op7t",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.1.7",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        },
+        {
+          "scope": "verse",
+          "reference": "GEN.1.8",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:11-12:nc8q",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.1.11",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        },
+        {
+          "scope": "verse",
+          "reference": "GEN.1.12",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:14:kh88",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.1.14",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:16:mgsa",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.1.16",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:21:next",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.1.21",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:26:gfpf",
+      "associations": [
+        {
+          "scope": "chapter",
+          "reference": "GEN.1",
+          "topicId": "NEUU:TOPIC:xml-nav-c-p2128.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:2:2-3:e07v",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.2.2",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        },
+        {
+          "scope": "verse",
+          "reference": "GEN.2.3",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:1:28:jh4n",
+      "associations": [
+        {
+          "scope": "verse",
+          "reference": "GEN.1.28",
+          "topicId": "NEUU:TOPIC:xml-tor-c-p1596.3"
+        }
+      ]
+    },
+    {
+      "id": "utq:v91:GEN:2:9:sx2v",
+      "associations": [
+        {
+          "scope": "chapter",
+          "reference": "GEN.2",
+          "topicId": "NEUU:TOPIC:xml-nav-c-p2128.3"
+        }
+      ]
+    }
+  ]
+}
