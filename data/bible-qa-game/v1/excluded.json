@@ -12,5 +12,12 @@
     "status": "excluded",
     "ownerDecision": "exclude",
     "reason": "Predictable answer; low variety"
+  },
+  {
+    "id": "utq:v91:GEN:2:18:aqbq",
+    "topic": "Creation",
+    "status": "excluded",
+    "ownerDecision": "exclude",
+    "reason": "Insufficient standalone context; Yahweh said many things."
   }
 ]
