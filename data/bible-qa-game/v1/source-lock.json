@@ -1,0 +1,17 @@
+{
+  "status": "preliminary",
+  "topics": {
+    "repository": "Stewards-of-the-Way/bible-foundation",
+    "commit": "c173df6faf9b2dc0c6fbcd38d8fdeb0bcec28fce",
+    "path": "data/topics/nave-torrey/reader/v1/"
+  },
+  "questions": {
+    "repository": "SOTW-Historical-Commentaries/historical-commentary-resources",
+    "path": "mobile-bible-beta/data/universal-search/v1/",
+    "manifestBlob": "f19432dc09ea3fcd6be70712509a0cd44b015cd4",
+    "upstreamCommit": "b4a7702a8bb1f7410514b7f44663c49ecfd25d33",
+    "count": 12139,
+    "shards": 8
+  },
+  "note": "Pin individual shard hashes and topic manifest before evaluation."
+}
