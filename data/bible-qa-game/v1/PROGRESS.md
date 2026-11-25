@@ -8,3 +8,5 @@
 2026-11-25 owner calibration: Creation candidates 1 and 3 excluded; 2 and 4–10 selected pending distractors and topic/Scripture checks. Prefer overlooked details, meaningful sequences, unexpected answers and enduring biblical significance; easy questions may qualify when thought-provoking. Avoid obvious or predictable answers. Eight selected, two excluded; zero release-ready. Preserve Genesis 1:27 male and female in God's image and distinguish Genesis 2 formation of woman from man.
 
 Owner calibration continued: GEN 1:28 jh4n selected; GEN 2:18 aqbq excluded because standalone wording lacks sufficient context. Difficulty must arise from biblical knowledge, not guessing the passage. Nine selected pending preparation; three excluded. GEN 2:9 sx2v proposed as tenth, awaiting owner decision.
+
+Owner approved GEN 2:9 sx2v (two trees). Creation selection complete: 10 owner-selected, 3 excluded, 0 release-ready. Next prepare 30 distractors and check existing verse-topic associations and Scripture. Apply owner-calibrated selection rules to remaining categories.
