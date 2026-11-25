@@ -14,3 +14,6 @@ Owner approved GEN 2:9 sx2v (two trees). Creation selection complete: 10 owner-s
 2026-11-25: Owner approved parallel distractor wording standard: match original answer's grammatical structure, speech form, length and detail; use plausible near alternatives and avoid obvious visual or linguistic cues. Three example sets approved as style calibration; all ten Creation drafts revised, not yet release-ready. Avoid ambiguous or partially correct alternatives in final review.
 
 2026-11-25: Owner approved all remaining seven Creation sets, following approval of the first three. All ten questions and thirty distractors are wording-locked. No editorial changes without owner approval. Scripture and unresolved topic association checks remain before release acceptance. Do not begin Moses until Creation is complete.
+
+## Current checkpoint — 2026-11-25
+Creation: 10 accepted, 30 owner-approved distractors, 3 excluded. KJV1769 Scripture checks passed; 7 direct verse and 3 chapter-scope matches verified against pinned Nave–Torrey index. Accepted bank, topic index and Creation source fingerprints committed. Preserve exact wording; first distractor potential ambiguity documented. Pending duplicate draft cleanup must be reconciled before Moses. Overall source lock remains preliminary for other categories. No Reader integration or deployment.
