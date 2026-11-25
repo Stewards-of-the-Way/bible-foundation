@@ -10,3 +10,5 @@
 Owner calibration continued: GEN 1:28 jh4n selected; GEN 2:18 aqbq excluded because standalone wording lacks sufficient context. Difficulty must arise from biblical knowledge, not guessing the passage. Nine selected pending preparation; three excluded. GEN 2:9 sx2v proposed as tenth, awaiting owner decision.
 
 Owner approved GEN 2:9 sx2v (two trees). Creation selection complete: 10 owner-selected, 3 excluded, 0 release-ready. Next prepare 30 distractors and check existing verse-topic associations and Scripture. Apply owner-calibrated selection rules to remaining categories.
+
+2026-11-25: Owner approved parallel distractor wording standard: match original answer's grammatical structure, speech form, length and detail; use plausible near alternatives and avoid obvious visual or linguistic cues. Three example sets approved as style calibration; all ten Creation drafts revised, not yet release-ready. Avoid ambiguous or partially correct alternatives in final review.
